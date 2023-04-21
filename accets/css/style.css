@@ -1,0 +1,18 @@
+body{
+    font-family: 'SF Pro Display' , serif;
+}
+:root{
+    --darkblue : #232f3e;
+    --white-100:#fff;
+    --transition:all 1s ;
+
+}
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+p{
+    margin: 0;
+}
+.fz-14{font-size: 14px;}
+.bg-transparent{background:transparent}

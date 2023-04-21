@@ -1,0 +1,16 @@
+.bg-top-nav{
+    background-color: var(--darkblue);
+    color: var(--white-100);
+}
+.custom-top-nav{
+    font-size: 15px;
+}
+.custom-top-nav a{
+    color: var(--white-100);
+    padding: 10px;
+    /* border-right: 1px solid; */
+}
+.shop-drop span{
+    font-size: 16px;
+    margin-right: 12px;
+}
