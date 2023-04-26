@@ -1,16 +1,15 @@
-.bg-top-nav{
-    background-color: var(--darkblue);
-    color: var(--white-100);
-}
-.custom-top-nav{
-    font-size: 15px;
-}
-.custom-top-nav a{
-    color: var(--white-100);
-    padding: 10px;
-    /* border-right: 1px solid; */
-}
-.shop-drop span{
-    font-size: 16px;
-    margin-right: 12px;
-}
+.first-nav{background-color: var(--dark-blue-75);}
+.second-nav{background-color: var(--dark-blue-100);}
+.second-nav .search-section .input-group ::placeholder{color: gray}
+.second-nav .search-section .input-group input:focus{color: gray;}
+.second-nav .search-section .input-group button.search-btn {background-color: var( --green-50);}
+.shop-section .section-dropdown{width: 256px!important;}
+.s-menu {background-color: var(--dark-blue-100); }
+
+.custom-have-dropdown i{font-size: 10px;vertical-align: 1px;}
+/* .custom-have-dropdown ul li:hover{} */
+.custom-have-dropdown ul li{transition: var( --custom-transition);}
+.custom-have-dropdown ul li a{color: var(--dark-black-100); }
+.custom-have-dropdown ul li:hover a{color:var(--dark-blue-25);padding-left: 20px;}
+.custom-have-dropdown ul li:hover i{transform: rotate(90deg);transition: var( --custom-transition); }
+.img-responsive{width: 100%;height: auto;display: block;}

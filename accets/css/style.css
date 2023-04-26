@@ -2,17 +2,25 @@ body{
     font-family: 'SF Pro Display' , serif;
 }
 :root{
-    --darkblue : #232f3e;
+    /* --darkblue : #232f3e; */
     --white-100:#fff;
+    --dark-blue-100:#0B2447;
+    --dark-blue-75:#19376D;
+    --dark-blue-50:#2a62ca;
+    --dark-blue-25:#2aace3;
+    --green-50:#43A047;
+    --dark-black-100:#000;
     --transition:all 1s ;
+    --custom-transition:all 1s ;
+
 
 }
-/* *{
-    padding: 0;
-    margin: 0;
-} */
 p{
     margin: 0;
 }
 .fz-14{font-size: 14px;}
+.fz-12{font-size: 12px;}
 .bg-transparent{background:transparent}
+.pos-unset{position:unset}
+.custom-transition{transition: all 1s;}
+/* .img-responsive{width: 100%;height: auto;display: block;} */
