@@ -24,3 +24,18 @@ p{
 .pos-unset{position:unset}
 .custom-transition{transition: all 1s;}
 /* .img-responsive{width: 100%;height: auto;display: block;} */
+@media (min-width: 1200px){
+    .container , .contaiiner-sm , .contaiiner-md ,.contaiiner-lg ,.contaiiner-xl {
+    max-width: 1340px !important;
+    }
+}
+@media (max-width:567px) {
+    .mt-csm-3{
+        margin-top: 1rem !important;
+    }
+}
+@media (max-width:991px) {
+    .mt-clg-3{
+        margin-top: 1rem !important;
+    }
+}
