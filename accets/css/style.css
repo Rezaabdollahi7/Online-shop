@@ -4,14 +4,17 @@ body{
 :root{
     /* --darkblue : #232f3e; */
     --white-100:#fff;
+    --gray-75:#f6f5f5;
     --dark-blue-100:#0B2447;
     --dark-blue-75:#19376D;
     --dark-blue-50:#2a62ca;
     --dark-blue-25:#2aace3;
     --green-50:#43A047;
     --dark-black-100:#000;
+    --yellow-80:#e7e732;
+    
     --transition:all 1s ;
-    --custom-transition:all 1s ;
+    --custom-transition:all .5s ;
 
 
 }

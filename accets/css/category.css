@@ -1,0 +1,4 @@
+.cat .items:hover{ background-color: rgba(197, 193, 193,0.2); }
+.cat .items {transition: var(--transition);}
+.cat .items img{transition: all 1s;}
+.cat .items:hover img{transform: scale(1.1);}
