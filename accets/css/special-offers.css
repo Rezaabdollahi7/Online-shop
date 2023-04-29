@@ -1,3 +1,9 @@
+.special-offers .section-header h3{
+   border-bottom: 1px solid #ef7373;
+   display: inline;
+    
+}
+
 .special-offers .custom-nav .nav-link {
     border: none !important;
     border-top-left-radius: 0;
@@ -9,10 +15,6 @@
     background-color: transparent;
     border: transparent;
     color: red;
-}
-.special-offers  .offer-rating {
-    /* width: 80px; */
-    
 }
 .special-offers  .offer-rating i{
     color: var(--white-100);
@@ -28,9 +30,10 @@
     left: -15%;
 }
 .special-offers .offer-price s{
-    color: red;
+    color: gray;
     padding-right: 10px; 
     font-size: 14px;
+    margin-left: 10px;
 }
 .special-offers .offer-price span{
     font-size: 17px;
@@ -79,6 +82,24 @@
     margin-right: 3px;
     
 }
+.colors :nth-child(1){
+    background-color: #0d6efd ;
+}
+
+
+.colors :nth-child(2){
+    background-color: #6f42c1  ;
+}
+.colors :nth-child(3){
+    background-color: #ffc107   ;
+}
+.colors :nth-child(4){
+    background-color: #20c997  ;
+}
+.products-item{
+    border: 2px 1px #efefef;
+    z-index: 1;
+}
 .offer-expire-text{
     width: 100%;
     display: flex;
@@ -103,12 +124,13 @@
     left: 0;
 }
 .offer-product-image .img-icons i{
-    margin: 10px 0;
+    margin: 5px 0;
     background-color: rgb(230, 227, 227);
     padding: 10px;
-    color: gray;
+    color: var(--gray-300);
     border-radius: 10px;
-    transition: all 1s;
+    transition: all 2s;
+    opacity: 0;
 }
 .offer-product-image .img-icons i:hover{
     background-color: aqua;
@@ -116,6 +138,10 @@
 }
 .offer-product-image:hover .first-image , .offer-product-image:hover .second-image{
     transform: translateY(-240px);
+}
+.offer-product-image:hover .img-icons i , .offer-product-image:hover .img-icons i{
+    
+   opacity: 1;
 }
 .offer-details{
     flex: 0 0 50%;

@@ -39,4 +39,10 @@ var x = setInterval(function () {
     }     
 },1000);
 
+
 $(".carousel").carousel();
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel();
+    });
+
+

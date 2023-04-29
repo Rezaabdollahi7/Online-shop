@@ -16,6 +16,10 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./accets/css/fonts.css" />
     <link rel="stylesheet" href="./accets/css/top-nav.css" />
     <link rel="stylesheet" href="./accets/css/style.css" />
@@ -24,6 +28,7 @@
     <link rel="stylesheet" href="./accets/css/a-d-s.css" />
     <link rel="stylesheet" href="./accets/css/category.css" />
     <link rel="stylesheet" href="./accets/css/special-offers.css" />
+    <link rel="stylesheet" href="./accets/css/products-carousel.css" />
   </head>
   <body>
     <!-- nav bar -->
@@ -629,60 +634,431 @@
     <!-- start special offers -->
     <section class="container special-offers mt-5">
         <div class="row">
-          
+            <div class="text-center section-header">
+              <h3 class="text-danger  ">Special Offers</h3>
+            </div>
                 <nav>
-                <div class="nav nav-tabs custom-nav" id="nav-tab" role="tablist">
+                <div class="nav nav-tabs custom-nav position-relative" id="nav-tab" role="tablist">
                     <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Iphone</button>
                     <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Ipad</button>
                     <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Airpods</button>
-                    
+                   
                 </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-6 bg-white position-relative">
+                                <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
                                       <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
                                       <div  class="offer-blur  d-flex justify-content-between text-center ">
                                           <div class="offer-product-image text-center">
                                             
-                                            <div class="img-icons d-flex flex-column position-absolute">
-                                             
-                                             <i class="fa-solid fa-heart"></i>
-                                             <i class="fa-solid fa-thumbs-up"></i>
-                                             <i class="fa-solid fa-bell"></i>
-                                             <i class="fa-solid fa-eye"></i>
-                                           
+                                            <div class="img-icons d-flex flex-column position-absolute ">
+                                             <i class="fa-solid fa-heart "></i>
+                                             <i class="fa-solid fa-thumbs-up "></i>
+                                             <i class="fa-solid fa-bell "></i>
+                                             <i class="fa-solid fa-eye "></i>
                                             </div>
                                             
                                             <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
                                             <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
                                           </div> 
 
-                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none" >Headset Apple</a> 
-                                            <div class="mt-2 offer-rating bg-warning rounded-4 text-center"><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
-                                            <div class="offer-price mt-1"> <span class="text-primary">199$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
-                                            <div class="count-down-timer mt-1">
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
                                                 <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
                                             </div>
-                                            <div class="colors mt-5 ">
-                                              <span class="bg-black rounded-circle" ></span>
-                                              <span class="bg-warning rounded-circle" ></span>
-                                              <span class="bg-gradient rounded-circle" ></span>
-                                              <span class="bg-primary rounded-circle" ></span>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
                                             </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
                                         </div> 
                                       </div>
                      
                                 </div>
-                                
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
                               
                             </div>
                         </div>
                 </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
-                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">      <div class="container">
+                            <div class="row">
+                                <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute ">
+                                             <i class="fa-solid fa-heart "></i>
+                                             <i class="fa-solid fa-thumbs-up "></i>
+                                             <i class="fa-solid fa-bell "></i>
+                                             <i class="fa-solid fa-eye "></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                              
+                            </div>
+                        </div></div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">      <div class="container">
+                            <div class="row">
+                                <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute ">
+                                             <i class="fa-solid fa-heart "></i>
+                                             <i class="fa-solid fa-thumbs-up "></i>
+                                             <i class="fa-solid fa-bell "></i>
+                                             <i class="fa-solid fa-eye "></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                                 <div class=" products-item mb-2  col-md-12 col-lg-6 bg-white position-relative">
+                                      <div class="position-absolute z-1 after-expire " ><div class="offer-expire-text-inner badge bg-warning"></div></div> 
+                                      <div  class="offer-blur  d-flex justify-content-between text-center ">
+                                          <div class="offer-product-image text-center">
+                                            
+                                            <div class="img-icons d-flex flex-column position-absolute">
+                                             <i class="fa-solid fa-heart"></i>
+                                             <i class="fa-solid fa-thumbs-up"></i>
+                                             <i class="fa-solid fa-bell"></i>
+                                             <i class="fa-solid fa-eye"></i>
+                                            </div>
+                                            
+                                            <img src="./accets/img/special-offers/1 (1).png" class="img-fluid first-image" alt="">
+                                            <img src="./accets/img/special-offers/pic2.jpg" class="img-fluid second-image" alt="">
+                                          </div> 
+
+                                        <div class="my-4 offer-details position-relative"><a href="#" class="text-decoration-none link-dark" > Apple 7 Pro Original Airpod</a> 
+                                            <div class="mt-2 offer-rating bg-warning rounded-4  "><i class="fa-solid fa-star"></i> <span>4.8 | (1,647)</span></div>
+                                           
+                                            <div class="count-down-timer mt-3">
+                                                <div id="demo" class="d-flex position-relative justify-content-center demos" ></div>
+                                            </div>
+                                            <div class="colors mt-4 ">
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                              <span class=" rounded-circle opacity-75" ></span>
+                                            </div>
+                                            <div class="offer-price mt-3"> <span class="text-primary">199.00$</span> <s>250$</s> <span class="badge rounded-pill text-bg-danger position-absolute top-0" id="badge">10%</span>   </div>
+                                        </div> 
+                                      </div>
+                     
+                                </div>
+                              
+                            </div>
+                        </div></div>
                 
                 </div>
            
@@ -690,10 +1066,125 @@
     </section>
      <!-- end special offers -->
 
+    <!-- start products -->
+    <section class="container products-carousel mt-5">
+      <div class="row mt-5 mb-3">
+          <div class="text-center section-header">
+              <h3 class="text-danger  ">Products</h3>
+            </div>
+        <div class="col-12">
+            <div class="owl-carousel owl-theme">
+                <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (1).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (7).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (2).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (13).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (5).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (10).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (15).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+                 <div class="item ">
+                    <div class="card " >
+                      <img src="./accets/img/carousel/pic1 (3).png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>  <sup class="fz-10">.00</sup> </span>  </h5>
+                        <p class="card-text mt-1">
+                          <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                          <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)</p>
+                        </p>
+                        <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to Cart</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+      </div>
+    </section>
 
-
-
-
+<!-- end of products -->
 
 
 
@@ -701,18 +1192,10 @@
 <br><br><br><br><br><br><br><br
 
 
+<!-- jqery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
-
-
-
-
-
-
-
-    <!-- custom js -->
-    <script src="./accets/js/main.js"></script>
+   
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/82dde8eac4.js"
@@ -724,5 +1207,38 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+
+    <!-- owl slider -->
+    <script src="./accets/js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+  
+    <script>
+          $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      center:true,
+     
+      nav: true,
+      items:6,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 5,
+        },
+      },
+    });
+    </script>
+     <!-- custom js -->
+    <script src="./accets/js/main.js"></script>
   </body>
 </html>

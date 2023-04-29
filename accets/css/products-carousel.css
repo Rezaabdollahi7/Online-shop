@@ -1,0 +1,16 @@
+.products-carousel .products-btn{
+    border: 1px solid rgb(75, 74, 74);
+   
+}
+.products-carousel .price{
+    vertical-align: 2px;
+}
+.owl-nav , .owl-dots{
+    display: block;
+}
+.owl-carousel .owl-item img {
+ display:block;
+ width:59%;
+ text-align: center;
+ 
+}
