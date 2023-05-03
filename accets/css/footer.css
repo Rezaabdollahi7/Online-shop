@@ -1,0 +1,22 @@
+/* footer .item-3 button{ padding: 0 20px;} */
+footer .ul-section ul{
+    list-style: none;
+}
+footer .ul-section ul a::before{
+    content: "\276f";
+    padding: 0 10px;
+    vertical-align: -1px;
+    /* width: 90%; */
+}
+footer .ul-section ul a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-bottom: 2px solid transparent;
+}
+footer .ul-section ul a:hover{
+    color: yellow;
+    border-bottom: 2px solid yellow;
+}
+
+footer .ul-section ul li{margin-top: 15px;}
