@@ -1,0 +1,8 @@
+.banner-1 .img-banner{
+    overflow: hidden;
+    
+}
+.banner-1 .img-banner:hover a img{
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
