@@ -1,0 +1,10 @@
+.brands-logo .owl-carousel .owl-item img {
+ display:block;
+ width:29%;
+ margin: 0 auto;
+ padding: 10px 0;
+
+}
+.brands-logo .owl-carousel-brand .owl-nav ,.brands-logo .owl-carousel-brand .owl-dot{
+    display: none;
+}
