@@ -1,0 +1,35 @@
+.mobile-offer{
+    background-color: #ffffff;
+}
+.mobile-offer .color-wrapper ul{
+    list-style-type: none;
+    /* background-color: yellow; */
+}
+.mobile-offer .color-wrapper ul li span{
+    padding: 6px 14px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* border: 3px solid blue ; */
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+}
+.mobile-offer .color-wrapper ul li span.green{background-color: #576856;}
+.mobile-offer .color-wrapper ul li span.silver{background-color: #f1f2ed;}
+.mobile-offer .color-wrapper ul li span.gold{background-color: #fae7c7;}
+.mobile-offer .color-wrapper ul li span.black{background-color: #222930;}
+.mobile-offer .color-wrapper ul li span.blue{background-color: #a7c1d9;}
+.mobile-offer .color-wrapper ul li span.purple{background-color: #594f63;}
+.mobile-offer .color-wrapper ul li span.yellow{background-color: #f9e479;}
+.mobile-offer .color-wrapper ul li span.midnight{background-color: #1d1d1f;}
+.mobile-offer .color-wrapper ul li span.starlight{background-color: #faf6f2;}
+.mobile-offer .color-wrapper ul li span.red{background-color: #fc0324;}
+.mobile-offer .mobile-items{transition: all 1s;}
+.mobile-offer .mobile-items:hover{transform: scale(1.06); box-shadow: 24px 25px 34px 7px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);}
+
+
+@media (max-width:992px) {
+    .mobile-offer .color-wrapper ul li span{
+        padding: 1px 11px;
+    }
+}

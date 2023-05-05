@@ -1,22 +1,27 @@
-/* footer .item-3 button{ padding: 0 20px;} */
-footer .ul-section ul{
-    list-style: none;
+footer .ul-tittles{
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    transition: all 1s;
+    padding-bottom: 3px;
 }
-footer .ul-section ul a::before{
+footer .ul-tittles:hover{
+    border-bottom: 3px solid #ffffff;
+}
+footer ul.nav a{
+    transition: all 0.32s ease-in-out;
+}
+footer ul.nav a::before{
     content: "\276f";
-    padding: 0 10px;
-    vertical-align: -1px;
-    /* width: 90%; */
+padding: 0 10px;
+vertical-align: 1px ;
 }
-footer .ul-section ul a{
-    color: black;
-    text-decoration: none;
-    transition: all 0.5s;
-    border-bottom: 2px solid transparent;
+footer ul.nav a:hover{
+    transform: translateX(15px);
+    color: rgba(155, 14, 195, 0.91) !important;
 }
-footer .ul-section ul a:hover{
-    color: yellow;
-    border-bottom: 2px solid yellow;
+footer ul.nav a:hover::before{transform: rotate(10deg);}
+footer .sochial-media{
+    border-top: 2px solid #efefef;
 }
-
-footer .ul-section ul li{margin-top: 15px;}
+footer .sochial-media ul li img{transition: all 0.12s ease-in-out;}
+footer .sochial-media ul li img:hover {transform: scale(1.2);}
