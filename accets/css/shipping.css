@@ -2,3 +2,6 @@
 @media (max-width:576px) {
     .custom-xs-ml{margin-left: -300px;}
 }
+.shipping .shipping-items{
+    background-image: linear-gradient(to left bottom, #cdd8e9, #96acde, #6b7fcf, #4f4fb954, #42129b);
+}

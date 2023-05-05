@@ -94,3 +94,79 @@ colorSpans_3.forEach((span) => {
   });
 });
 
+
+
+// ----------------------- typewritter js --------------------
+
+var app = document.getElementById("product-category");
+
+var typewriter = new Typewriter(app, {
+  loop: true,
+});
+
+typewriter
+  .typeString("Product Categorization")
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString("Product segmentation")
+  .pauseFor(2500)
+  .deleteAll()
+  .typeString("<strong>Enjoy !</strong>")
+  .pauseFor(2500)
+  .start();
+
+
+
+
+  var app_2 = document.getElementById("special-offers");
+  var typewriter = new Typewriter(app_2, {
+    loop: true,
+  });
+  typewriter
+    .typeString("Top Rated")
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString("bestseller")
+    .pauseFor(2500)
+   
+    .deleteChars(6)
+    .typeString("<strong> Choise</strong>")
+    .pauseFor(2500)
+    .start();
+
+
+
+      var app_3 = document.getElementById("macbook-air");
+      var typewriter = new Typewriter(app_3, {
+        loop: true,
+      });
+      typewriter
+        .typeString("Macbook Air")
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString("Lightweight and powerful laptop")
+        .pauseFor(2500)
+        .deleteAll()
+        .typeString(" High-performance ultrabook")
+        .deleteAll()
+        .typeString("All-day battery life MacBook.")
+        .deleteAll()
+        .pauseFor(2500)
+        .start();
+
+              var app_4 = document.getElementById("compare-iphone");
+              var typewriter = new Typewriter(app_4, {
+                loop: true,
+              });
+              typewriter
+                .typeString("Compare iPhone models")
+                .pauseFor(2500)
+                .deleteAll()
+                .typeString("Performance comparison")
+                .pauseFor(2500)
+                .deleteAll()
+                .typeString("Technical comparison")
+                .deleteAll()
+                .pauseFor(2500)
+                .start();
+

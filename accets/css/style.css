@@ -38,6 +38,18 @@ p{
 .pos-unset{position:unset}
 .custom-transition{transition: all 1s;}
 .border-black{border:1px solid #000000 !important;}
+
+/* .custom-transition-opacity{
+    opacity: 0;
+
+    
+    animation: opacity-transition 1s  ;
+    animation-fill-mode: forwards;
+}
+@keyframes opacity-transition {
+    from{opacity:0}
+    to{opacity: 1;}
+} */
 /* .img-responsive{width: 100%;height: auto;display: block;} */
 @media (min-width: 1200px){
     .container , .contaiiner-sm , .contaiiner-md ,.contaiiner-lg ,.contaiiner-xl {

@@ -16,6 +16,10 @@
     border: transparent;
     color: red;
 }
+.special-offers  .offer-rating{
+    width: 65%;
+margin-left: 18%;
+}
 .special-offers  .offer-rating i{
     color: var(--white-100);
     font-size: 14px;
@@ -129,7 +133,7 @@
 }
 .offer-product-image .img-icons{
     top: 10px;
-    left: 0;
+    left: 10px;
 }
 .offer-product-image .img-icons i{
     margin: 5px 0;

@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="./accets/css/fonts.css" />
     <link rel="stylesheet" href="./accets/css/top-nav.css" />
     <link rel="stylesheet" href="./accets/css/style.css" />
@@ -40,7 +42,7 @@
   </head>
   <body>
     <!-- nav bar -->
-    <nav class="s-navbar container-fluid">
+    <nav class="s-navbar container-fluid " id="home-section">
       <div class="row first-nav">
         <div class="d-none col-md-4 d-md-block d-flex align-items-center">
           <div class="app-icon">
@@ -451,8 +453,13 @@
     </nav>
     <!-- end of navbar -->
 
+    <!-- start scroll botton -->
+      <a href="#home-section" class="scroll-btn "> <img class="img-fluid" src="./accets/icons/top-button/004-up-arrow-2.png" alt="" width="32px"></a>
+        <!-- styles in slider.css -->
+      <!-- end of scroll botton -->
+
     <!-- start slider -->
-        <div class="container mt-5">
+        <div class="container mt-5" data-aos="zoom-out" data-aos-duration="2000" data-aos-easing="ease-in-sine"  data-aos-delay="300">
             <div class="row">
                 <div class="col-sm-12 col-lg-6 custom-col-lg-6 first-slider">
                   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -512,51 +519,11 @@
         </div>
     <!-- end of  slider -->
 
-    <!-- start shiping  -->
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-sm-6 col-md-3  shipping-wrapper ">
-                   <div class="bg-light p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2">
-                     <img src="./accets/icons/shipping/001-fast-delivery.png" width="50px"  class="me-sm-3" alt="">
-                     <p class="fz-14 custom-xs-ml">Free Send To World</p>
-                   </div>
-                </div>
-                <div class="col-sm-6 col-md-3 shipping-wrapper ">
-                   <div class="bg-light p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2 ">
-                     <img src="./accets/icons/shipping/002-megaphone.png" width="50px"  class="me-sm-3" alt="">
-                     <p  class="fz-14 custom-xs-ml">Free Send To World</p>
-                   </div> 
-                  
-                </div>
-                <div class="col-sm-6 col-md-3 shipping-wrapper">
-                   <div class="bg-light p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2 ">
-                     <img src="./accets/icons/shipping/003-price.png"  width="50px" class="me-sm-3" alt="">
-                    <p  class="fz-14 custom-xs-ml">Free Send To World</p>
-                   </div> 
-                  
-                </div>
-                <div class="col-sm-6 col-md-3 shipping-wrapper  ">
-                   <div class="bg-light p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2">
-                     <img src="./accets/icons/shipping/004-customer-support.png" width="50px"  class="me-sm-3" alt="">
-                    <p  class="fz-14 custom-xs-ml">Free Send To World</p>
-                   </div>
-                   
-                </div>
-             
-            </div>
-        </div>
-    <!-- end shiping  -->
-
-
-
-  
-
-
 <!-- start cat  -->
-    <section class=" cat container mt-8 ">
+    <section class=" cat container mt-8 " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="300" data-aos-duration="2000" >
         <div class="row ">
             <div class=" col-12 d-flex  mb-4 ">
-                <h3> Products Category</h3>
+                <h3 id="product-category"> Products Category</h3>
             </div>
             <div class=" items col-sm-6 col-md-3 col-lg-2  d-flex justify-content-between align-items-center flex-column mb-4 mb-4 rounded-2  border border-2 p-3">
                 <p>Mobile</p>
@@ -624,10 +591,10 @@
     <!-- end of cat -->
 
     <!-- start special offers -->
-      <section class="container special-offers mt-8">
+      <section class="container special-offers mt-8 custom-transition-opacity " data-aos="zoom-in" data-aos-duration="2000"  data-aos-delay="500">
           <div class="row">
               <div class="col-sm-12 mb-3">
-                <h3 class="  ">Special Offers</h3>
+                <h3 id="special-offers">Special Offers</h3>
               </div>
                   <nav>
                   <div class="nav nav-tabs custom-nav position-relative d-flex mb-2 justify-content-center" id="nav-tab" role="tablist">
@@ -1058,8 +1025,8 @@
       </section>
      <!-- end special offers -->
 
-    <!-- start apple brands -->
-     <section class="banner-2 container mt-5">
+    <!-- start apple banners -->
+     <section class="banner-2 container mt-5" data-aos="fade-left" data-aos-duration="2000"  data-aos-delay="500">
       <div class="row">
         <div class="col-sm-12 position-relative">
           <div class="texts position-absolute">
@@ -1072,10 +1039,10 @@
         </div>
       </div>
      </section>
-     <!-- end of  apple brands -->
+     <!-- end of  apple banners -->
 
     <!-- start products -->
-      <section class="container products-carousel mt-5">
+      <section class="container products-carousel mt-5" data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="500">
         <div class="row mt-5 mb-3">
             <div class="col-sm-12">
                 <h3 >Products</h3>
@@ -1218,10 +1185,10 @@
     <!-- end of products -->
 
     <!-- start mackbook-banner  -->
-        <section class="mackbook-banner container mt-8 ">
+        <section class="mackbook-banner container mt-8 " data-aos="fade-up" data-aos-duration="2000"  data-aos-delay="500">
           <div class="row">
-            <div class="col-sm-12">
-              <h3>Macbook Air</h3>
+            <div class="col-sm-12 mb-3">
+              <h3 id="macbook-air">Macbook Air</h3>
             </div>
              <div class="col-sm-12 col-md-6 mb-2 col-lg-3 img-banner">
                 <a href="#"><img src="./accets/img/mackbook-banner/1 (3).webp" alt="" class="img-fluid rounded"></a> 
@@ -1246,10 +1213,10 @@
     <!-- end mackbook-banner -->
 
     <!-- start mobile offer -->
-     <section class="container mobile-offer mt-9 mb-5 rounded-4">
+     <section class="container mobile-offer mt-9 mb-5 rounded-4" data-aos="fade-down" data-aos-duration="2000"  data-aos-delay="700">
       <div class="row pb-3">
         <div class="col-sm-12">
-          <h2 class="text-center mt-3 mb-3 fw-bold">Compare iPhone models</h2>
+          <h2 class="text-center mt-3 mb-3 fw-bold" id="compare-iphone">Compare iPhone models</h2>
         </div>
         <div class="mobile-items col-sm-12 col-md-4  col-xl-4 d-flex flex-column align-items-center justify-content-center mt-4">
           <h3 class="fz-18">Iphone 13 Promax</h3>
@@ -1302,10 +1269,10 @@
     <!-- start banner-3 -->
       <section class="banner-3 container mt-5">
         <div class="row">
-          <div class=" items  m-4 m-sm-0 col-sm-12 col-md-6">
+          <div class=" items  m-4 m-sm-0 col-sm-12 col-md-6" data-aos="fade-up-right" data-aos-duration="2000"  data-aos-delay="500">
             <img src="./accets/img/banner-2/10.jpg" class="img-fluid rounded-5" alt="">
           </div>
-            <div class=" items  m-4 m-sm-0 col-sm-12 col-md-6">
+            <div class=" items  m-4 m-sm-0 col-sm-12 col-md-6" data-aos="fade-up-left" data-aos-duration="2000"  data-aos-delay="500">
             <img src="./accets/img/banner-2/14.png" class="img-fluid rounded-5" alt="">
           </div>
           
@@ -1378,19 +1345,54 @@
     <section class="container mt-9 blogs">
       <div class="row">
      
-        <div class="col-sm-12 col-md-8">
+        <div class="col-sm-12 col-md-8" data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="300">
           <video class="rounded-2" src="./accets/img/banner-2/animated_medium20201014-15479-b5vlyr.mp4" autoplay loop width="100%"></video>
         </div>
         <div class="col-sm-12 col-md-4 overflow-hidden">
-          <img class="img-fluid mb-3 rounded-4" src="./accets/img/banner-2/11.png" alt="">
-          <img class="img-fluid rounded-4" src="./accets/img/banner-2/17.png" alt="">
+          <img class="img-fluid mb-3 rounded-4" src="./accets/img/banner-2/11.png" alt=""  data-aos="fade-left" data-aos-duration="2000"  data-aos-delay="700">
+          <img class="img-fluid rounded-4" src="./accets/img/banner-2/17.png" alt=""  data-aos="fade-up-left" data-aos-duration="2000"  data-aos-delay="900">
         </div>
       </div>
     </section>
     <!-- end of video section -->
 
+        <!-- start shiping  -->
+        <div class="container shipping mt-8"  data-aos="fade-right" data-aos-duration="2000"   data-aos-delay="300">
+            <div class="row">
+                <div class="col-sm-6 col-md-3  shipping-wrapper ">
+                   <div class="rounded-5 shipping-items p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2">
+                     <img src="./accets/icons/shipping/001-fast-delivery.png" width="50px"  class="me-sm-3" alt="">
+                     <p class="fz-146custom-xs-ml">Free Send To World</p>
+                   </div>
+                </div>
+                <div class="col-sm-6 col-md-3 shipping-wrapper ">
+                   <div class="rounded-5 shipping-items p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2 ">
+                     <img src="./accets/icons/shipping/002-megaphone.png" width="50px"  class="me-sm-3" alt="">
+                     <p  class="fz-16 custom-xs-ml">Free Send To World</p>
+                   </div> 
+                  
+                </div>
+                <div class="col-sm-6 col-md-3 shipping-wrapper">
+                   <div class="rounded-5 shipping-items p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2 ">
+                     <img src="./accets/icons/shipping/003-price.png"  width="50px" class="me-sm-3" alt="">
+                    <p  class="fz-16 custom-xs-ml">Free Send To World</p>
+                   </div> 
+                  
+                </div>
+                <div class="col-sm-6 col-md-3 shipping-wrapper  ">
+                   <div class="rounded-5 shipping-items p-2 align-items-center d-flex justify-content-around justify-content-sm-center mb-sm-2">
+                     <img src="./accets/icons/shipping/004-customer-support.png" width="50px"  class="me-sm-3" alt="">
+                    <p  class="fz-16 custom-xs-ml">Free Send To World</p>
+                   </div>
+                   
+                </div>
+             
+            </div>
+        </div>
+    <!-- end shiping  -->
+
     <!-- start footer section -->
-    <section class="container mt-8" >
+    <section class="container mt-8"  data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine"  data-aos-delay="500" >
       <footer class="py-3 ">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
@@ -1496,7 +1498,6 @@
 
     <!-- owl slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
     <script>
           $(".owl-carousel").owlCarousel({
       loop: true,
@@ -1520,9 +1521,17 @@
         },
       },
     });
-
-
     </script>
+
+    <!-- type writter js -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
      <!-- custom js -->
     <script src="./accets/js/main.js"></script>
   </body>
