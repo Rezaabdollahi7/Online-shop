@@ -1359,7 +1359,7 @@
         <!-- start shiping  -->
         <div class="container shipping mt-8"  data-aos="fade-right" data-aos-duration="2000"   data-aos-delay="300">
             <div class="row">
-                <div class="col-sm-6 col-md-3  shipping-wrapper " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <div class="col-sm-6 col-md-3  shipping-wrapper open-modal-btn"  data-modal-id="1">
                    <div class="rounded-4 shipping-items p-2 align-items-center d-flex flex-column justify-content-around justify-content-sm-center mb-sm-2">
                      <img src="./accets/icons/shipping/001-fast-delivery.png" width="50px"  class="me-sm-3" alt="">
                      <p class="fz-18 custom-xs-ml texts">ٍEnjoy
@@ -1371,7 +1371,7 @@
                      </p>
                 </div>
                 </div>
-                <div class="col-sm-6 col-md-3 shipping-wrapper ">
+                <div class="col-sm-6 col-md-3 shipping-wrapper  open-modal-btn" data-modal-id="2" >
                    <div class="rounded-5 shipping-items p-2 align-items-center d-flex flex-column justify-content-around justify-content-sm-center mb-sm-2 ">
                      <img src="./accets/icons/shipping/002-megaphone.png" width="45px"  class="me-sm-3" alt="">
                        <p class="fz-18 custom-xs-ml texts">
@@ -1381,7 +1381,7 @@
                 </div> 
                   
                 </div>
-                  <div class="col-sm-6 col-md-3 shipping-wrapper">
+                  <div class="col-sm-6 col-md-3 shipping-wrapper open-modal-btn" data-modal-id="3">
                    <div class="rounded-5 shipping-items p-2 align-items-center d-flex flex-column justify-content-around justify-content-sm-center mb-sm-2 ">
                      <img src="./accets/icons/shipping/003-price.png"  width="50px" class="me-sm-3" alt="">
                       <p class="fz-18 custom-xs-ml texts">Make them yours
@@ -1394,7 +1394,7 @@
                   
                 </div>
 
-                <div class="col-sm-6 col-md-3 shipping-wrapper  ">
+                <div class="col-sm-6 col-md-3 shipping-wrapper open-modal-btn " data-modal-id="4">
                    <div class="rounded-5 shipping-items p-2 align-items-center d-flex flex-column justify-content-around justify-content-sm-center mb-sm-2">
                      <img src="./accets/icons/shipping/004-customer-support.png" width="50px"  class="me-sm-3" alt="">
                       <p class="fz-18 custom-xs-ml texts">Get a
@@ -1407,52 +1407,195 @@
                    
                 </div>
              
-                <!-- Modal -->
-                <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        ...
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
-                      </div>
-                    </div>
-                  </div>
-                </div> -->
-                <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
             </div>
         </div>
     <!-- end shiping  -->
+      
+    <!-- start shipping modals -->
+    <section class="container-fluid cusom-modal">
+      <div class="row">
+        <!-- The Modal 1 -->
+        <div class="col-12">
+          <div id="modal-1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close d-flex justify-content-center align-items-center">&times;</span>
+              <h3 class="mt-3 fw-bold">Flexible delivery and pickup options.</h3>
+              <p class="mt-2">Get your new Apple products quickly and easily with a handful of delivery and pickup options to choose from.</p>
+              <h4 class="mt-4">Two-hour delivery from an Apple Store.</h4>
+              <p class="mt-2">Enjoy lightning-fast courier delivery for an additional fee at checkout, on eligible in-stock items in most metro areas. Delivery time windows can be scheduled at checkout.</p> 
+              <a href="#" class="mt-5 text-decoration-none">Learn more</a> 
+            </div>
+
+          </div> 
+        </div>
+
+        <!-- The Modal 2 -->
+         <div class="col-12">
+          <div id="modal-2" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close d-flex justify-content-center align-items-center">&times;</span>
+              <h3 class="mt-3 fw-bold">Trade in your device for credit.</h3>
+              <p class="mt-2">Just add a trade-in when you choose a new product. Once your device has been received and verified, we’ll credit the value to your payment method. Or, choose to check out with Apple Card Monthly Installments and we’ll apply the credit instantly. Terms apply.</p>
+             
+              <div class="container d-flex justify-content-center align-items-center">
+                           <ul class="nav nav-pills mb-3 mt-4" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Iphone</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ipad</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Mac</button>
+                      </li>
+                  
+                </ul>
+              </div>
+       
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                      <table class="w-100 text-center table table-striped ">
+                        <thead>
+                          <tr>
+                            <th  >Your Device</th>
+                            <th  >Estimated trade in-value</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                        <tr>
+                          <td>Iphone 13 Pro Max</td>
+                          <td>Up to $630</td>
+                        </tr>
+                        <tr>
+                          <td>Iphone 13 Pro </td>
+                          <td>Up to $530</td>
+                        </tr>
+                        <tr>
+                          <td>Iphone 13  </td>
+                          <td>Up to $400</td>
+                        </tr>
+                        <tr>
+                          <td>Iphone 13 mini </td>
+                          <td>Up to $330</td>
+                        </tr>
+                        <tr>
+                          <td>Iphone 12 Pro Max</td>
+                          <td>Up to $165</td>
+                        </tr>
+                      </tbody>
+                      </table>
+          
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                       <table class="w-100 text-center table table-striped ">
+                        <thead>
+                          <tr>
+                            <th  >Your Device</th>
+                            <th  >Estimated trade in-value</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                        <tr>
+                          <td>iPad Pro</td>
+                          <td>Up to $470</td>
+                        </tr>
+                        <tr>
+                          <td>iPad Air </td>
+                          <td>Up to $320</td>
+                        </tr>
+                        <tr>
+                          <td>iPad  </td>
+                          <td>Up to $400</td>
+                        </tr>
+                        <tr>
+                          <td>iPad mini </td>
+                          <td>Up to $250</td>
+                        </tr>
+                      
+                      </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                       <table class="w-100 text-center table table-striped ">
+                        <thead>
+                          <tr>
+                            <th  >Your Device</th>
+                            <th  >Estimated trade in-value</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                        <tr>
+                          <td>MacBook Pro</td>
+                          <td>Up to $630</td>
+                        </tr>
+                        <tr>
+                          <td>MacBook Air </td>
+                          <td>Up to $530</td>
+                        </tr>
+                        <tr>
+                          <td>MacBook </td>
+                          <td>Up to $400</td>
+                        </tr>
+                        <tr>
+                          <td>iMac Pro </td>
+                          <td>Up to $330</td>
+                        </tr>
+                        <tr>
+                          <td>iMac</td>
+                          <td>Up to $165</td>
+                        </tr>
+                      </tbody>
+                      </table>
+                    </div>
+                </div>
+
+            </div>
+
+          </div> 
+        </div>
+
+        <!-- The Modal 3 -->
+         <div class="col-12">
+          <div id="modal-3" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content d-flex flex-column justify-content-center align-items-center">
+              <span class="close custom-close d-flex justify-content-center align-items-center">&times;</span>
+              <img class="mt-4" src="./accets/icons/shipping/frictionless-asa-202303.png" alt="" width="70px" height="70px">
+              <h3 class="mt-3 fw-bold">Shop in the Apple Store app, tailored specifically for you </h3>
+              <p class="mt-2">Get personalized product recommendations, compare models, access your Saved Items, and track your orders. Plus, opt in today to get updates on new products, promotions, flexible payment options, and store events. </p>
+            
+              <p class="mt-4">Scan the QR code to get started.</p> 
+              <img class="mt-4" src="./accets/icons/shipping/frictionless-qr-202303.png" alt="" width="150px" height="150px">
+             
+            </div>
+
+          </div> 
+        </div>
+
+        <!-- The Modal 4 -->
+          <div class="col-12">
+          <div id="modal-4" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close d-flex justify-content-center align-items-center">&times;</span>
+              <h3 class="mt-3 fw-bold">Build the Mac that’s best for you.</h3>
+             
+              <p class="mt-2">When you buy online at Apple, you can customize your Mac just the way you want. Whether you need more memory, additional storage, or an extra-powerful graphics card, you can tailor any new Mac to suit your needs.</p> 
+              <a href="#" class="mt-5 text-decoration-none">Shop Mac</a> 
+            </div>
+
+          </div> 
+        </div>
+      </div>
+    </section>
+    <!-- end of shipping modals  -->
+
 
     <!-- start footer section -->
     <section class="container mt-8"  data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine"  data-aos-delay="500" >
