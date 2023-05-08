@@ -40,7 +40,7 @@
 
 
  /* The Modal (background) */
-.modal {
+.shipping-modals .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -55,7 +55,7 @@
 }
 
 /* Modal Content/Box */
-.modal-content {
+.shipping-modals .modal-content {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
@@ -65,7 +65,7 @@
 }
 
 /* The Close Button */
-.close {
+.shipping-modals .close {
   /* color: #ffffff; */
   float: right;
   font-size: 28px;
@@ -78,13 +78,13 @@ border-radius: 50%;
   font-weight: bold;
   background-color: #efefee;
 }
-.custom-close{
+.shipping-modals .custom-close{
   position: absolute;
   top: 25px;
   left: 25px;
 }
-.close:hover,
-.close:focus {
+.shipping-modals .close:hover,
+.shipping-modals .close:focus {
   /* color: rgb(255, 255, 255);
    */
    color: rgb(173, 165, 165);

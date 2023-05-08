@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Store - Product</title>
+
+    <link
+      rel="shortcut icon"
+      href="./accets/icons/apple.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./accets/css/fonts.css" />
+    <link rel="stylesheet" href="./accets/css/top-nav.css" />
+    <link rel="stylesheet" href="./accets/css/style.css" />
+    <link rel="stylesheet" href="./accets/css/slider.css" />
+    <link rel="stylesheet" href="./accets/css/shipping.css" />
+    <link rel="stylesheet" href="./accets/css/a-d-s.css" />
+    <link rel="stylesheet" href="./accets/css/category.css" />
+    <link rel="stylesheet" href="./accets/css/special-offers.css" />
+    <link rel="stylesheet" href="./accets/css/products-carousel.css" />
+
+    <link rel="stylesheet" href="./accets/css/mackbook-banner.css" />
+
+    <link rel="stylesheet" href="./accets/css/banner-2.css" />
+    <link rel="stylesheet" href="./accets/css/blogs.css" />
+    <link rel="stylesheet" href="./accets/css/mobile-offers.css" />
+    <link rel="stylesheet" href="./accets/css/brands-logo.css" />
+    <link rel="stylesheet" href="./accets/css/footer.css" />
+    <link rel="stylesheet" href="./accets/css/product-details.css" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="s-navbar container-fluid" id="home-section">
+      <div class="row first-nav">
+        <div class="d-none col-md-4 d-md-block d-flex align-items-center">
+          <div class="app-icon">
+            <img
+              src="./accets/icons/iphone(1).png"
+              alt=""
+              width="20"
+              class="m-1"
+            />
+            <span class="text-secondary fz-12">Download Mobile app</span>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 col-md-8 d-flex justify-content-center justify-content-sm-center justify-content-md-end align-items-center fz-12"
+        >
+          <nav class="nav">
+            <a class="nav-link link-secondary" href="#">Promo</a>
+            <a class="nav-link link-secondary border-start" href="#"
+              >Toksmile News</a
+            >
+            <a class="nav-link link-secondary border-start" href="#"
+              >Help & center
+            </a>
+            <a class="nav-link link-secondary border-start me-3" href="#"
+              >Language</a
+            >
+          </nav>
+        </div>
+      </div>
+
+      <div class="row second-nav py-2">
+        <div
+          class="brand-section d-md-block d-sm-none d-none col-md-3 d-flex align-items-center justify-content-center"
+        >
+          <img src="./accets/icons/app-store.png" alt="" class="ms-5" />
+          <span class="text-white ms-2">Apple Store</span>
+        </div>
+        <div class="search-section col-md-6 d-flex align-items-center">
+          <div class="input-group">
+            <button
+              class="btn btn-secondary dropdown-toggle fz-14"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Products
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item active" href="#">MacBook</a></li>
+              <li><a class="dropdown-item" href="#">Airpad</a></li>
+              <li><a class="dropdown-item" href="#">Phone</a></li>
+              <li><a class="dropdown-item" href="#">Apple tv</a></li>
+            </ul>
+            <input
+              type="text"
+              class="form-control border-1 border-secondary bg-transparent"
+              placeholder="Search Produts Here ..."
+              aria-label="Text input with dropdown button"
+            />
+            <button class="btn search-btn fz-14" type="button">
+              <img src="./accets/icons/search.png" alt="" />
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="shop-section col-md-3 d-flex align-items-center justify-content-center"
+        >
+          <div class="dropdown">
+            <button
+              class="btn bg-transparent text-white border dropdown-toggle fz-14"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <span class="pe-1">Shop Bascket</span>
+              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+            </button>
+            <ul class="dropdown-menu section-dropdown">
+              <li>
+                <a
+                  class="dropdown-item d-flex justify-content-around align-items-center"
+                  href="#"
+                >
+                  <img
+                    class="img-thumbnail"
+                    src="./accets/img/headphone/1.jpg"
+                    alt=""
+                    width="64px"
+                    height="60px"
+                  />
+                  <ul class="fz-12 list-unstyled">
+                    <li>Apple Phone</li>
+                    <li>Iphone 12</li>
+                    <li>1,200$</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="btn-close fz-12"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item d-flex justify-content-around align-items-center"
+                  href="#"
+                >
+                  <img
+                    class="img-thumbnail"
+                    src="./accets/img/phone/1.jpg"
+                    alt=""
+                    width="64px"
+                  />
+                  <ul class="fz-12 list-unstyled">
+                    <li>Apple Phone</li>
+                    <li>Iphone 12</li>
+                    <li>1,200$</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="btn-close fz-12"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="dropdown-item d-flex justify-content-around align-items-center"
+                  href="#"
+                >
+                  <img
+                    class="img-thumbnail"
+                    src="./accets/img/watch/1.jpg"
+                    alt=""
+                    width="64px"
+                    height="64px"
+                  />
+                  <ul class="fz-12 list-unstyled">
+                    <li>Apple Phone</li>
+                    <li>Iphone 12</li>
+                    <li>1,200$</li>
+                  </ul>
+                  <button
+                    type="button"
+                    class="btn-close fz-12"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="s-menu row">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container position-relative">
+            <a class="navbar-brand text-white" href="#">Buy</a>
+            <button
+              class="navbar-toggler custom-navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-white"
+                    aria-current="page"
+                    href="#"
+                    >Home
+                  </a>
+                </li>
+
+                <li class="nav-item dropdown pos-unset">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Technologhy
+                  </a>
+                  <ul
+                    class="dropdown-menu w-100 custom-have-dropdown flex-column border-0 shadow"
+                  >
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-8">
+                          <ul class="nav flex-column ps-4">
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a
+                                class="nav-link d-inline"
+                                aria-current="page"
+                                href="#"
+                                >Mashine</a
+                              >
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">Yakhchal</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">ojagh</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem2</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem3</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem4</a>
+                            </li>
+                          </ul>
+                        </div>
+
+                        <div
+                          class="col-sm-6 col-md-6 col-lg-4 p-xs-3 p-sm-0 d-flex align-items-center justify-content-center"
+                        >
+                          <img
+                            src="./accets/img/Menu/pc.jpg"
+                            alt=""
+                            class="img-responsive"
+                          />
+                        </div>
+                      </div>
+                      <!-- end of row -->
+                    </div>
+                    <!-- end of container -->
+                  </ul>
+                  <!-- end of main technologhy dropdown ul -->
+                </li>
+                <!-- end of main technologhy dropdown li -->
+
+                <li class="nav-item dropdown pos-unset">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                  >
+                    Super Market
+                  </a>
+                  <ul
+                    class="dropdown-menu w-100 custom-have-dropdown flex-column border-0 shadow"
+                  >
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-8 col-md-8 col-lg-8 d-flex">
+                          <div class="col-md-4">
+                            <ul class="nav flex-column ps-4">
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a
+                                  class="nav-link d-inline"
+                                  aria-current="page"
+                                  href="#"
+                                  >Mashine</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >Yakhchal</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#">ojagh</a>
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem2</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem3</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem4</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-4">
+                            <ul class="nav flex-column ps-4">
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a
+                                  class="nav-link d-inline"
+                                  aria-current="page"
+                                  href="#"
+                                  >Mashine</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >Yakhchal</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#">ojagh</a>
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem2</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem3</a
+                                >
+                              </li>
+                              <li class="nav-item my-3 custom-transition">
+                                <i class="fa-solid fa-chevron-right"></i>
+                                <a class="nav-link d-inline" href="#"
+                                  >lavazem4</a
+                                >
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div
+                          class="col-sm-4 col-md-4 col-lg-4 p-5 p-sm-1 p-lg-0 d-flex align-items-center justify-content-center"
+                        >
+                          <img
+                            src="./accets/img/Menu/pc.jpg"
+                            alt=""
+                            class="img-responsive"
+                          />
+                        </div>
+                      </div>
+                      <!-- end of row -->
+                    </div>
+                    <!-- end of container -->
+                  </ul>
+                  <!-- end of main technologhy dropdown ul -->
+                </li>
+                <!-- end of main Super market dropdown li -->
+
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"> Digital product</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Disabled</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-warning"
+                    aria-current="page"
+                    href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"
+                    >Sign in</a
+                  >
+                </li>
+                <!-- sign in modal  -->
+                <!-- Modal -->
+                <div
+                  class="modal fade signin-modal"
+                  id="exampleModal"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header border-0 d-flex flex-column">
+                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                        <h1 class="fw-bold mb-0 fs-2">Welcome back !</h1>
+
+                        <p class="mt-2 text-secondary">
+                          Start managing your faster and better
+                        </p>
+                      </div>
+                      <div class="modal-body">
+                        <form class="">
+                          <div class="form-floating mb-3">
+                            <input
+                              type="email"
+                              class="form-control rounded-3 border-0 border-bottom position-relative"
+                              id="floatingInput"
+                              placeholder="name@example.com"
+                            />
+                            <img
+                              src="./accets/icons/app-store.png"
+                              alt=""
+                              class="img-fluid position-absolute z-1 input-icons"
+                              width="32px"
+                            />
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input
+                              type="password"
+                              class="form-control rounded-3 border-0 border-bottom position-relative"
+                              id="floatingPassword"
+                              placeholder="Password"
+                            />
+                            <img
+                              src="./accets/icons/app-store.png"
+                              alt=""
+                              class="img-fluid position-absolute z-1 input-icons"
+                              width="32px"
+                            />
+                            <label for="floatingPassword">Password</label>
+                          </div>
+                          <a
+                            href="#"
+                            class="text-decoration-none float-end mb-2"
+                            >Forgot Password ?</a
+                          >
+                          <button
+                            class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                            type="submit"
+                          >
+                            Login
+                          </button>
+                          <hr />
+                          <p class="or-text text-center">Or</p>
+
+                          <div class="col-sm-12 d-flex my-3">
+                            <div
+                              class="col-sm-4 offset-2 d-flex border p-2 rounded-2 align-items-center justify-content-center"
+                            >
+                              <img
+                                class="me-2"
+                                src="./accets/icons/apple.png"
+                                alt=""
+                                width="24px"
+                              />
+                              <a
+                                href=""
+                                class="text-decoration-none ps-1 text-black"
+                                >Google</a
+                              >
+                            </div>
+
+                            <div
+                              class="col-sm-4 offset-1 d-flex border p-2 rounded-2 align-items-center justify-content-center"
+                            >
+                              <img
+                                class="me-2"
+                                src="./accets/icons/apple.png"
+                                alt=""
+                                width="24px"
+                              />
+                              <a
+                                href=""
+                                class="text-decoration-none ps-1 text-black"
+                                >Facebook</a
+                              >
+                            </div>
+                          </div>
+                          <!-- end of buttons -->
+
+                          <div
+                            class="col-12 d-flex mt-4 justify-content-center align-items-center"
+                          >
+                            <p class="text-secondary">
+                              Dont you have an account?
+                            </p>
+                            <a href="" class="ms-2 text-decoration-none"
+                              >Sign Up</a
+                            >
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- end of sign in modal -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <section class="container product-details bg-white mt-5">
+      <div class="row">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#" class="text-decoration-none">Home</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">Macbook</li>
+            <li class="breadcrumb-item active" aria-current="page">
+              Apple Macbook pro 2021
+            </li>
+          </ol>
+        </nav>
+        <!-- end of breadcrumb -->
+
+        <div class="col-sm-12 col-md-5">
+          <img
+            src="./accets/img/phone/1.jpg"
+            class="img-fluid rounded-2"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <h1>Apple Macbook Pro 2021 14"inch" M1 Chip</h1>
+          <p>$2690,15</p>
+          <div class="offer-rating mt-4">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            (17 commnent)
+          </div>
+          <hr />
+          <div class="product-color">
+            <span>Color</span>
+            <span class="yellow"></span>
+            <span class="green"></span>
+            <span class="silver"></span>
+            <span class="blue"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- start footer section -->
+    <section
+      class="container mt-8"
+      data-aos="fade-left"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-sine"
+      data-aos-delay="500"
+    >
+      <footer class="py-3">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="ul-tittles">Entertainment</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Apple One </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Apple News+ </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Apple Books </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted"
+                  >Apple Tv+
+                  <span class="badge rounded-pill bg-light text-dark ms-1"
+                    >New</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Apple Acocount</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="ul-tittles">About Apple</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Newsroom </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted"
+                  >Apple Leadership
+                </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted"> Investors </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Contact Apple </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Faq</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5 class="ul-tittles">Apple Values</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Accessibility </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Education </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Environment </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">Privacy </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-muted">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3 Subscribe-section">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button
+                  class="btn btn-primary d-flex align-items-center"
+                  type="button"
+                >
+                  Subscribe<img
+                    src="./accets/img/footer/notification.png"
+                    class="ms-1"
+                    width="24px"
+                    alt=""
+                  />
+                </button>
+              </div>
+            </form>
+
+            <h5 class="mt-4">Download the app :</h5>
+            <div class="mt-3 d-flex">
+              <div class="col-sm-6 col-md-5">
+                <a
+                  href="#"
+                  class="d-flex flex-row border-black me-1 rounded-3 p-1 text-decoration-none"
+                >
+                  <img
+                    src="./accets/img/footer/google-play.png"
+                    class="img-fluid"
+                    width="48px"
+                    alt=""
+                  />
+                  <div
+                    class="texts ms-2 d-flex flex-column justify-content-center"
+                  >
+                    <p class="fz-10 text-dark">GET IT ON</p>
+                    <p class="text-dark">Google Play</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-5 offset-1">
+                <a
+                  href="#"
+                  class="d-flex flex-row border border-1 rounded-3 p-1 text-decoration-none bg-white"
+                >
+                  <img
+                    src="./accets/img/footer/app-store.png"
+                    class="img-fluid"
+                    width="48px"
+                    alt=""
+                  />
+                  <div
+                    class="texts ms-2 d-flex flex-column justify-content-center"
+                  >
+                    <p class="fz-10 text-dark">Download app the</p>
+                    <p class="text-dark">App Store</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-5 sochial-media"
+        >
+          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><img
+                  src="./accets/img/footer/facebook.png"
+                  class="img-fluid"
+                  width="24px"
+                  alt=""
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><img
+                  src="./accets/img/footer/twitter(3).png"
+                  class="img-fluid"
+                  width="24px"
+                  alt=""
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><img
+                  src="./accets/img/footer/linkedin(1).png"
+                  class="img-fluid"
+                  width="24px"
+                  alt=""
+              /></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-dark" href="#"
+                ><img
+                  src="./accets/img/footer/instagram.png"
+                  class="img-fluid"
+                  width="24px"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+    <!-- end of  footer section -->
+
+    <!-- jqery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/82dde8eac4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- owl slider -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        center: true,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        autoplayHoverPause: true,
+        slideBy: 3,
+        nav: true,
+        items: 6,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+    <!-- type writter js -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- custom js -->
+    <script src="./accets/js/main.js"></script>
+  </body>
+</html>

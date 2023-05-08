@@ -14,3 +14,7 @@
 .s-navbar .custom-have-dropdown ul li:hover i{transform: rotate(90deg);transition: var( --custom-transition); }
 .s-navbar .s-menu .img-responsive{width: 100%;height: auto;display: block;}
 .s-navbar .custom-navbar-toggler{color: var(--white-100);}
+.s-navbar .signin-modal .input-icons{
+   top: 35%;
+   right: 2%;
+}

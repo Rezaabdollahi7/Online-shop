@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Store /</title>
+    <title>Apple Store</title>
     <link
       rel="shortcut icon"
       href="./accets/icons/apple.png"
@@ -441,10 +441,68 @@
                   <a class="nav-link text-white" href="#">About us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-warning" aria-current="page" href="#"
-                    >Special order</a
+                  <a class="nav-link text-warning" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    >Sign in</a
                   >
                 </li>
+                <!-- sign in modal  -->
+                  <!-- Modal -->
+                  <div class="modal fade signin-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex flex-column">
+                          <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          <h1 class="fw-bold mb-0 fs-2">Welcome back !</h1>
+                          
+                          <p class="mt-2 text-secondary">Start managing your faster and better</p>
+                        </div>
+                        <div class="modal-body">
+                          <form class="">
+                            <div class="form-floating mb-3">
+                              <input type="email" class="form-control rounded-3 border-0 border-bottom position-relative" id="floatingInput" placeholder="name@example.com">
+                              <img src="./accets/icons/app-store.png" alt="" class="img-fluid position-absolute z-1 input-icons" width="32px">
+                              <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                              <input type="password" class="form-control rounded-3 border-0 border-bottom position-relative" id="floatingPassword" placeholder="Password">
+                            <img src="./accets/icons/app-store.png" alt="" class="img-fluid position-absolute z-1 input-icons" width="32px">
+                              <label for="floatingPassword">Password</label>
+                            </div>
+                            <a href="#" class="text-decoration-none float-end mb-2">Forgot Password ?</a>
+                            <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Login</button>
+                            <hr>
+                            <p class="or-text text-center">Or</p>
+
+                            <div class="col-sm-12 d-flex my-3">
+                              <div class="col-sm-4 offset-2 d-flex border  p-2 rounded-2 align-items-center justify-content-center">
+                                <img class="me-2" src="./accets/icons/apple.png" alt="" width="24px">
+                                <a href="" class="text-decoration-none ps-1  text-black">Google</a>
+                              </div>
+
+                              <div class="col-sm-4 offset-1 d-flex border p-2 rounded-2  align-items-center justify-content-center">
+                                <img class="me-2" src="./accets/icons/apple.png" alt="" width="24px">
+                                <a href="" class="text-decoration-none ps-1 text-black ">Facebook</a>
+                              </div>
+                            </div>
+                            <!-- end of buttons -->
+
+                            <div class="col-12 d-flex mt-4 justify-content-center align-items-center">
+                              <p class="text-secondary">Dont you have an account?</p>
+                              <a href="" class="ms-2 text-decoration-none">Sign Up</a>
+                            </div>
+                            
+                        
+                          
+                        
+                          </form>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+
+                <!-- end of sign in modal -->
               </ul>
             </div>
           </div>
@@ -1412,7 +1470,7 @@
     <!-- end shiping  -->
       
     <!-- start shipping modals -->
-    <section class="container-fluid cusom-modal">
+    <section class="container-fluid cusom-modal shipping-modals">
       <div class="row">
         <!-- The Modal 1 -->
         <div class="col-12">
