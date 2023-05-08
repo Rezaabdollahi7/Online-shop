@@ -52,7 +52,7 @@
     <link rel="stylesheet" href="./accets/css/mobile-offers.css" />
     <link rel="stylesheet" href="./accets/css/brands-logo.css" />
     <link rel="stylesheet" href="./accets/css/footer.css" />
-    <link rel="stylesheet" href="./accets/css/product-details.css" />
+    <link rel="stylesheet" href="./accets/css/productPage-product.css" />
   </head>
   <body>
     <!-- nav bar -->
@@ -592,9 +592,9 @@
     </nav>
     <!-- end of navbar -->
 
-    <section class="container product-details bg-white mt-5">
+    <section class="container product-details bg-white mt-3 rounded-2">
       <div class="row">
-        <nav aria-label="breadcrumb">
+        <nav aria-label="breadcrumb " class="mt-2">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="#" class="text-decoration-none">Home</a>
@@ -614,24 +614,117 @@
             alt=""
           />
         </div>
+        <!-- end of images -->
+
         <div class="col-sm-12 col-md-4">
-          <h1>Apple Macbook Pro 2021 14"inch" M1 Chip</h1>
-          <p>$2690,15</p>
-          <div class="offer-rating mt-4">
+          <h5 >Apple Macbook Pro 2021 14 "inch" M1 Chip</h5>
+          <p class="fz-16">$2690,15</p>
+          <div class="offer-rating mt-3">
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
+            <i class="fas fa-star text-warning"></i>
             <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            (17 commnent)
+            (17 comments)
           </div>
           <hr />
-          <div class="product-color">
-            <span>Color</span>
+          <div class="colors">
+            <p class="mb-2">Color</p>
             <span class="yellow"></span>
             <span class="green"></span>
             <span class="silver"></span>
             <span class="blue"></span>
+            <span class="gold"></span>
+              <span class="red"></span>
+            
+              
           </div>
+
+          <hr>
+
+          <div class="processor">
+            <p>processor</p>
+            <div class="processor-buttons d-flex justify-content-around mt-3">
+                <button type="button" class="btn btn-outline-primary fz-12">32Gb , 32core   Apple M1 Pro</button>
+                <button type="button" class="btn btn-outline-secondary fz-12">16Gb, 16core   Apple M1 Pro</button>
+            </div>
+
+          </div>
+
+          <hr>
+
+         <div class="Memory-size">
+            <p>Meemory Size</p>
+            <div class="processor-buttons d-flex  mt-3 ps-3">
+                <button type="button" class="btn btn-outline-primary fz-12 w-25">512 Gb</button>
+                <button type="button" class="btn btn-outline-secondary fz-12 ms-2 w-25">1 TB</button>
+            </div>
+
+          </div>
+
+          <hr>
+
+          <div class="send-section d-flex flex-column">
+            <div class="send-items d-flex flex-row">
+                <img src="./accets/icons/product/box.png" alt="" class="img-fluid" width="24px">
+                <p class="text-secondary fz-14 ms-2">Sent From <Strong class="text-black fz-16">Soekarno-hatta Street , Uk</Strong></p>
+            </div>
+            <div class="send-items d-flex flex-row mt-2">
+                <img src="./accets/icons/product/shipped.png" alt="" class="img-fluid" width="24px">
+                <p class="text-secondary fz-14 ms-2"> Shipping Cost <Strong class="text-black fz-16">$20</Strong></p>
+            </div>
+            <div class="send-items d-flex flex-row mt-2">
+                <img src="./accets/icons/product/pie-chart.png" alt="" class="img-fluid" width="24px">
+                <p class="text-secondary fz-14 ms-2">Estimated Delivery  <Strong class="text-black fz-16">3 Days</Strong></p>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- end of middle section -->
+
+        <!-- start end section -->
+        <div class="col-sm-12 col-md-3">
+            <div class="quantity">
+                <p class="mb-2">Set Quantity</p>
+                <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 me-1" href="#" id="plus">+</a>
+                <input type="text" id="numberInput" value="0" class="border text-center">
+                <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 ms-1" href="#" id="minus">-</a>
+                <p class="text-secondary mt-2">Only <span class="text-primary">10 items</span> Left !</p>
+            </div>
+            <!-- end set Quantity -->
+            <hr>
+
+            <div class="add-notse-section">
+                <h6>Add Notes</h6>
+                 <input type="email" class="form-control pb-5 rounded-3" id="floatingInput" placeholder="Type here ...">
+            </div>
+
+            <hr>
+            <div class="buy-section d-flex flex-column">
+                <div class="d-flex justify-content-between mb-3">
+                    <span>Sub Total</span>
+                    <strong> $ 2690,15</strong>
+                </div> 
+                <button type="button" class="btn btn-primary mt-2">Buy Now</button>
+               <button type="button" class="btn btn-light mt-2 border-3">Add to Card</button>
+
+               <div class="buy-icons d-flex mt-3 justify-content-around">
+                    <div class="buy-icons-item d-flex ">
+                        <img src="./accets/icons/product/love.png" alt="" class="img-fluid" width="20px" height="16px">
+                        <p class="ms-2 text-secondary">Chat </p>
+                    </div>
+                      <div class="buy-icons-item d-flex ">
+                        <img src="./accets/icons/product/message.png" alt="" class="img-fluid" width="20px" height="16px">
+                        <p class="ms-2 text-secondary">Wishlist </p>
+                    </div>
+                      <div class="buy-icons-item d-flex ">
+                        <img src="./accets/icons/product/share.png" alt="" class="img-fluid" width="20px" height="16px">
+                        <p class="ms-2 text-secondary">Share </p>
+                    </div>
+               </div>
+            </div>
+
         </div>
       </div>
     </section>
