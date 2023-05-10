@@ -53,6 +53,7 @@
     <link rel="stylesheet" href="./accets/css/brands-logo.css" />
     <link rel="stylesheet" href="./accets/css/footer.css" />
     <link rel="stylesheet" href="./accets/css/productPage-product.css" />
+    <link rel="stylesheet" href="./accets/css/product-tabs.css" />
   </head>
   <body>
     <!-- nav bar -->
@@ -592,6 +593,7 @@
     </nav>
     <!-- end of navbar -->
 
+    <!-- start product details section -->
     <section class="container product-details bg-white mt-3 rounded-2">
       <div class="row">
         <nav aria-label="breadcrumb " class="mt-2">
@@ -607,7 +609,7 @@
         </nav>
         <!-- end of breadcrumb -->
 
-        <div class="col-sm-12 col-md-5">
+        <div class="col-sm-12 col-md-5 border-end">
           <img
             src="./accets/img/phone/1.jpg"
             class="img-fluid rounded-2"
@@ -616,7 +618,7 @@
         </div>
         <!-- end of images -->
 
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-4 ">
           <h5 >Apple Macbook Pro 2021 14 "inch" M1 Chip</h5>
           <p class="fz-16">$2690,15</p>
           <div class="offer-rating mt-3">
@@ -666,15 +668,15 @@
 
           <div class="send-section d-flex flex-column">
             <div class="send-items d-flex flex-row">
-                <img src="./accets/icons/product/box.png" alt="" class="img-fluid" width="24px">
+                <img src="./accets/icons/product/shipped.png" alt="" class="img-fluid" width="24px">
                 <p class="text-secondary fz-14 ms-2">Sent From <Strong class="text-black fz-16">Soekarno-hatta Street , Uk</Strong></p>
             </div>
             <div class="send-items d-flex flex-row mt-2">
-                <img src="./accets/icons/product/shipped.png" alt="" class="img-fluid" width="24px">
+                <img src="./accets/icons/product/pie-chart.png" alt="" class="img-fluid" width="24px">
                 <p class="text-secondary fz-14 ms-2"> Shipping Cost <Strong class="text-black fz-16">$20</Strong></p>
             </div>
             <div class="send-items d-flex flex-row mt-2">
-                <img src="./accets/icons/product/pie-chart.png" alt="" class="img-fluid" width="24px">
+                <img src="./accets/icons/product/box.png" alt="" class="img-fluid" width="24px">
                 <p class="text-secondary fz-14 ms-2">Estimated Delivery  <Strong class="text-black fz-16">3 Days</Strong></p>
             </div>
           </div>
@@ -684,24 +686,24 @@
         <!-- end of middle section -->
 
         <!-- start end section -->
-        <div class="col-sm-12 col-md-3">
+        <div class="col-sm-12 col-md-3 ">
             <div class="quantity">
                 <p class="mb-2">Set Quantity</p>
                 <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 me-1" href="#" id="plus">+</a>
                 <input type="text" id="numberInput" value="0" class="border text-center">
                 <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 ms-1" href="#" id="minus">-</a>
-                <p class="text-secondary mt-2">Only <span class="text-primary">10 items</span> Left !</p>
+                <p class="text-secondary mt-2">Only <span class="text-primary">5 items</span> Left !</p>
             </div>
             <!-- end set Quantity -->
-            <hr>
+            
 
-            <div class="add-notse-section">
+            <div class="add-notse-section mt-5">
                 <h6>Add Notes</h6>
-                 <input type="email" class="form-control pb-5 rounded-3" id="floatingInput" placeholder="Type here ...">
+                 <input type="email" class="form-control pb-7 rounded-3" id="floatingInput" placeholder="Type here ...">
             </div>
 
-            <hr>
-            <div class="buy-section d-flex flex-column">
+           
+            <div class="buy-section d-flex flex-column mt-5">
                 <div class="d-flex justify-content-between mb-3">
                     <span>Sub Total</span>
                     <strong> $ 2690,15</strong>
@@ -711,11 +713,11 @@
 
                <div class="buy-icons d-flex mt-3 justify-content-around">
                     <div class="buy-icons-item d-flex ">
-                        <img src="./accets/icons/product/love.png" alt="" class="img-fluid" width="20px" height="16px">
+                        <img src="./accets/icons/product/message.png" alt="" class="img-fluid" width="20px" height="16px">
                         <p class="ms-2 text-secondary">Chat </p>
                     </div>
-                      <div class="buy-icons-item d-flex ">
-                        <img src="./accets/icons/product/message.png" alt="" class="img-fluid" width="20px" height="16px">
+                    <div class="buy-icons-item d-flex ">
+                          <img src="./accets/icons/product/love.png" alt="" class="img-fluid" width="20px" height="16px">
                         <p class="ms-2 text-secondary">Wishlist </p>
                     </div>
                       <div class="buy-icons-item d-flex ">
@@ -728,6 +730,223 @@
         </div>
       </div>
     </section>
+    <!-- end of product details -->
+
+    <section class="container product-tabs mt-5 bg-white">
+        <div class="row">
+            <div class="col-sm-12 p-2">
+                <nav>
+                    <div class="nav nav-tabs custom-navtabs-product " id="nav-tab" role="tablist">
+                        <div class="d-flex position-relative">
+
+                            <button class="nav-link active  ps-5" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Introduction</button>
+                            <img class="position-absolute tab-icon tab-icon-1" src="./accets/icons/product/presentation.png" alt="" width="24px" height="24px">
+                        </div>
+                        <div class="d-flex position-relative">
+
+                            <button class="nav-link text-dark ps-5" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Expert check</button>
+                            <img class="position-absolute tab-icon tab-icon-2" src="./accets/icons/product/criminal-record.png" alt="" width="24px" height="24px">
+                        </div>
+                        <div class="d-flex position-relative">
+                            
+                            <button class="nav-link text-dark ps-5" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Specifications</button>
+                            <img class="position-absolute tab-icon tab-icon-3" src="./accets/icons/product/clipboard.png" alt="" width="24px" height="24px">
+                        </div>
+                        
+                    </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade  bg-secondary-subtle show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                        <h5 class="p-3">Introduction </h5>
+                        <p class="p-3 lh-lg">Apple's MacBook laptops to date have been able to perform well and acceptable performance without any additional definitions. One of the powerful laptops in this series is the MacBook MK193 2021. The laptop is equipped with a 16.2 -inch display with a resolution of 3456 × 3456 pixels of the Liquid Retina XDR, which is capable of displaying 254 pixels per inch. We have to say that, given the specifications, we have a powerful and high quality display. But the powerful features of this screen are not over and you should know that it is capable of delivering an update rate of 120 Hz, which brings you a smooth screen without any lag. But undoubtedly the main feature of Apple's series laptops is the processors intended. The MacBook MK193 2021 is also equipped with a powerful Apple M1 Pro processor, which is capable of providing excellent performance in executing heavy software. The 2.1kg weight of this laptop also has no problem with it, and the compact size of the MacBook Pro MK193 2021 does not occupy much space.</p>
+                        
+                        <div class=" product-progresses-wrapper  col-xl-5 mt-3 p-2">
+                          <h4 class="text-center">Users feedback</h4>
+                          <div class="product-progresses-item p-2 mb-3 border-1">
+                            <div class="top-desc d-flex justify-content-between">
+                                <p>hello</p>
+                                <span class="me-1 fz-14">26 comments</span>
+                            </div>
+                         <div class="progress " style="height: 3px;">
+                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 92%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                             <p class="text-success">92%</p>
+                              <span class="text-danger">8%</span>
+                          </div>   
+                          </div>
+                           <div class="product-progresses-item p-2 mb-3">
+                                    <div class="top-desc d-flex justify-content-between">
+                                <p>hello</p>
+                                <span class="me-1 fz-14">49 comments</span>
+                            </div>
+                         <div class="progress " style="height: 3px;">
+                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                             <p class="text-success">80%</p>
+                                <span class="text-danger">20%</span>
+                          </div>   
+                          </div>
+                           <div class="product-progresses-item p-2 mb-3">
+                                    <div class="top-desc d-flex justify-content-between">
+                                <p>hello</p>
+                                <span class="me-1 fz-14">51 comments</span>
+                            </div>
+                         <div class="progress " style="height: 3px;">
+                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                             <p class="text-success">75%</p>
+                                <span class="text-danger">25%</span>
+                          </div>   
+                          </div>
+                           <div class="product-progresses-item p-2 mb-3">
+                                    <div class="top-desc d-flex justify-content-between">
+                                <p>hello</p>
+                                <span class="me-1 fz-14">99 comments</span>
+                            </div>
+                         <div class="progress " style="height: 3px;">
+                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 69%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                         </div>
+                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                             <p class="text-success">69%</p>
+                                <span class="text-danger">31%</span>
+                          </div>   
+                          </div>
+                    
+
+                          
+                        </div>
+                        <!-- end of progresses -->
+
+                        <div class="row mt-5 p-3 products-desc-steps">
+                          <div class="col-sm-12">
+                            <p class="text-danger fw-bold fs-2 text-center my-4">Overview</p>
+                            <ul class="nav flex-column">
+
+                              <li class="nav-item products-desc-step mt-2 position-relative">
+                                <div class="img-wrapper" >
+                                  <img src="./accets/img/mackbook-banner/1 (1).webp" class="img-fluid mb-4"  alt="">
+                                </div>
+                                <i class="far fa-dot-circle"></i>
+                                <p class="lh-lg fz-16 p-4">MacBook Pro 2021 has a new design. The screen of this MacBook is designed in 2 sizes of 14 inches and 16 inches, and their size has been slightly increased. The dimensions of the 14-inch model are 1.55cm x 31.26cm x 22.12cm, which is slightly larger than the MacBook Pro M1 (13-inch) which measures 1.56cm x 30.41cm x 21.24cm. The 16-inch MacBook Pro is also designed in the size of 1.62cm x 35.79cm x 24.59cm. The weight of the 16-inch model is about 0.2 kg and the 14-inch model is 1.6 kg.</p>
+                              </li>
+
+                              <li class="nav-item products-desc-step mt-2 position-relative pt-5">
+                                   <div class="img-wrapper" >
+                                  <img src="./accets/img/mackbook-banner/1 (2).webp" class="img-fluid mb-4"  alt="">
+                                </div>
+                                <i class="far fa-dot-circle"></i>
+                                <p class="lh-lg fz-16 p-4">Currently, the 14-inch and 16-inch MacBook Pros have a 1080p FaceTime HD camera. This new camera doubles image resolution and dramatically improves low-light performance. It can be said that this is the same camera used in the iMac M1, which was presented in 2021. Apple has been able to improve the sound quality and audio features of its new device by using studio-quality mics. In this way, it reduces thermal noise and creates clearer contacts. Apple has also added a six-speaker audio system to the 2021 MacBook, which features two tweeters and four force-cancelling woofers. Apple has announced that this will result in 80% more bass. The audio system of the new MacBooks also supports spatial audio for a 3D listening experience.</p>
+                              </li>
+
+                              <li class="nav-item products-desc-step mt-2 position-relative">
+                                   <div class="img-wrapper" >
+                                  <img src="./accets/img/mackbook-banner/1 (3).webp" class="img-fluid mb-4"  alt="">
+                                </div>
+                                <i class="far fa-dot-circle"></i>
+                                <p class="lh-lg fz-16 p-4">The 2021 MacBook Pro was released on October 18 in 14.2-inch and 16.2-inch sizes, featuring mini-LED displays, more ports, up to 64GB of storage, and Apple's more powerful chips, the M1 Pro and M1 Max. . In short, we can say that they are the best MacBook Pro models introduced to date.</p>
+                              </li>
+                           
+                            </ul>
+                          </div>
+                        </div>
+                        <!-- end of steps -->
+                    </div>
+                    <!-- end of first tab-pane  -->
+
+                    <div class="tab-pane fade  product-specifications-wrapper" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+                      <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <h5 class="ms-2">General specifications</h5>
+                      </div>
+                      <ul class="nav flex-column product-specifications-ul mt-3">
+                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">nps</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                        </ul>
+                        <!-- end of first specifications ul  -->
+                                 <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <h5 class="ms-2">General specifications</h5>
+                      </div>
+                      <ul class="nav flex-column product-specifications-ul mt-3">
+                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                        </ul>
+                         <!-- end of second specifications ul  -->
+                                 <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <h5 class="ms-2">General specifications</h5>
+                      </div>
+                      <ul class="nav flex-column product-specifications-ul mt-3">
+                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                            <span class=" text-center">hello</span>
+                            <p class=" text-center">hello2</p>
+                          </li>
+                        </ul>
+                    </div>
+                    <!-- end of second tab pan -->
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
+                    
+                    </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- start footer section -->
     <section
@@ -742,7 +961,7 @@
           <div class="col-6 col-md-2 mb-3">
             <h5 class="ul-tittles">Entertainment</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2">
+              <li class="nav-item p-2 mb-2">
                 <a href="#" class="nav-link p-0 text-muted">Apple One </a>
               </li>
               <li class="nav-item mb-2">

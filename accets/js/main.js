@@ -219,7 +219,10 @@ plusBtn.addEventListener("click", function(event) {
   // Prevent the default behavior of the link
   event.preventDefault();
   // Increment the input value
-  numberInput.value++;
+  if(numberInput.value < 5){
+
+    numberInput.value++;
+  }
 });
 
 // Add event listener to minus button
