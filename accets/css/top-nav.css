@@ -1,20 +1,70 @@
-.s-navbar .first-nav{background-color: var(--dark-blue-75);}
-.s-navbar .second-nav{background-color: var(--dark-blue-100);}
-.s-navbar .second-nav .search-section .input-group ::placeholder{color: gray}
-.s-navbar .second-nav .search-section .input-group input:focus{color: gray;}
-.s-navbar .second-nav .search-section .input-group button.search-btn {background-color: var( --green-50);}
-.s-navbar .shop-section .section-dropdown{width: 256px!important;}
-.s-navbar .s-menu {background-color: var(--dark-blue-100); }
-.s-navbar .brand-section img{max-width: 32px;}
-.s-navbar .custom-have-dropdown i{font-size: 10px;vertical-align: 1px;}
+.s-navbar .first-nav {
+   background-color: var(--dark-blue-75);
+}
+
+.s-navbar .second-nav {
+   background-color: var(--dark-blue-100);
+}
+
+.s-navbar .second-nav .search-section .input-group ::placeholder {
+   color: gray
+}
+
+.s-navbar .second-nav .search-section .input-group input:focus {
+   color: gray;
+}
+
+.s-navbar .second-nav .search-section .input-group button.search-btn {
+   background-color: var(--green-50);
+}
+
+.s-navbar .shop-section .section-dropdown {
+   width: 256px !important;
+}
+
+.s-navbar .s-menu {
+   background-color: var(--dark-blue-100);
+}
+
+.s-navbar .brand-section img {
+   max-width: 32px;
+}
+
+.s-navbar .custom-have-dropdown i {
+   font-size: 10px;
+   vertical-align: 1px;
+}
+
 /* .custom-have-dropdown ul li:hover{} */
-.s-navbar .custom-have-dropdown ul li{transition: var( --custom-transition);}
-.s-navbar .custom-have-dropdown ul li a{color: var(--dark-black-100); }
-.s-navbar .custom-have-dropdown ul li:hover a{color:var(--dark-blue-25);padding-left: 20px;}
-.s-navbar .custom-have-dropdown ul li:hover i{transform: rotate(90deg);transition: var( --custom-transition); }
-.s-navbar .s-menu .img-responsive{width: 100%;height: auto;display: block;}
-.s-navbar .custom-navbar-toggler{color: var(--white-100);}
-.s-navbar .signin-modal .input-icons{
+.s-navbar .custom-have-dropdown ul li {
+   transition: var(--custom-transition);
+}
+
+.s-navbar .custom-have-dropdown ul li a {
+   color: var(--dark-black-100);
+}
+
+.s-navbar .custom-have-dropdown ul li:hover a {
+   color: var(--dark-blue-25);
+   padding-left: 20px;
+}
+
+.s-navbar .custom-have-dropdown ul li:hover i {
+   transform: rotate(90deg);
+   transition: var(--custom-transition);
+}
+
+.s-navbar .s-menu .img-responsive {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+.s-navbar .custom-navbar-toggler {
+   color: var(--white-100);
+}
+
+.s-navbar .signin-modal .input-icons {
    top: 35%;
    right: 2%;
 }

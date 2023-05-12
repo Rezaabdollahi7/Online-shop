@@ -1,270 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Store - Product</title>
 
-    <link
-      rel="shortcut icon"
-      href="./accets/icons/apple.png"
-      type="image/x-icon"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apple Store - Product</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="shortcut icon" href="./accets/icons/apple.png" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./accets/css/fonts.css" />
-    <link rel="stylesheet" href="./accets/css/top-nav.css" />
-    <link rel="stylesheet" href="./accets/css/style.css" />
-    <link rel="stylesheet" href="./accets/css/slider.css" />
-    <link rel="stylesheet" href="./accets/css/shipping.css" />
-    <link rel="stylesheet" href="./accets/css/a-d-s.css" />
-    <link rel="stylesheet" href="./accets/css/category.css" />
-    <link rel="stylesheet" href="./accets/css/special-offers.css" />
-    <link rel="stylesheet" href="./accets/css/products-carousel.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="./accets/css/mackbook-banner.css" />
+  <link rel="stylesheet" href="./accets/css/fonts.css" />
+  <link rel="stylesheet" href="./accets/css/top-nav.css" />
+  <link rel="stylesheet" href="./accets/css/style.css" />
+  <link rel="stylesheet" href="./accets/css/slider.css" />
+  <link rel="stylesheet" href="./accets/css/shipping.css" />
+  <link rel="stylesheet" href="./accets/css/a-d-s.css" />
+  <link rel="stylesheet" href="./accets/css/category.css" />
+  <link rel="stylesheet" href="./accets/css/special-offers.css" />
+  <link rel="stylesheet" href="./accets/css/products-carousel.css" />
 
-    <link rel="stylesheet" href="./accets/css/banner-2.css" />
-    <link rel="stylesheet" href="./accets/css/blogs.css" />
-    <link rel="stylesheet" href="./accets/css/mobile-offers.css" />
-    <link rel="stylesheet" href="./accets/css/brands-logo.css" />
-    <link rel="stylesheet" href="./accets/css/footer.css" />
-    <link rel="stylesheet" href="./accets/css/productPage-product.css" />
-    <link rel="stylesheet" href="./accets/css/product-tabs.css" />
-  </head>
-  <body>
-    <!-- nav bar -->
-    <nav class="s-navbar container-fluid" id="home-section">
-      <div class="row first-nav">
-        <div class="d-none col-md-4 d-md-block d-flex align-items-center">
-          <div class="app-icon">
-            <img
-              src="./accets/icons/iphone(1).png"
-              alt=""
-              width="20"
-              class="m-1"
-            />
-            <span class="text-secondary fz-12">Download Mobile app</span>
-          </div>
+  <link rel="stylesheet" href="./accets/css/mackbook-banner.css" />
+
+  <link rel="stylesheet" href="./accets/css/banner-2.css" />
+  <link rel="stylesheet" href="./accets/css/blogs.css" />
+  <link rel="stylesheet" href="./accets/css/mobile-offers.css" />
+  <link rel="stylesheet" href="./accets/css/brands-logo.css" />
+  <link rel="stylesheet" href="./accets/css/footer.css" />
+  <link rel="stylesheet" href="./accets/css/productPage-product.css" />
+  <link rel="stylesheet" href="./accets/css/product-tabs.css" />
+</head>
+
+<body>
+  <!-- nav bar -->
+  <nav class="s-navbar container-fluid" id="home-section">
+    <div class="row first-nav">
+      <div class="d-none col-md-4 d-md-block d-flex align-items-center">
+        <div class="app-icon">
+          <img src="./accets/icons/iphone(1).png" alt="" width="20" class="m-1" />
+          <span class="text-secondary fz-12">Download Mobile app</span>
         </div>
-        <div
-          class="col-sm-12 col-md-8 d-flex justify-content-center justify-content-sm-center justify-content-md-end align-items-center fz-12"
-        >
-          <nav class="nav">
-            <a class="nav-link link-secondary" href="#">Promo</a>
-            <a class="nav-link link-secondary border-start" href="#"
-              >Toksmile News</a
-            >
-            <a class="nav-link link-secondary border-start" href="#"
-              >Help & center
-            </a>
-            <a class="nav-link link-secondary border-start me-3" href="#"
-              >Language</a
-            >
-          </nav>
+      </div>
+      <div
+        class="col-sm-12 col-md-8 d-flex justify-content-center justify-content-sm-center justify-content-md-end align-items-center fz-12">
+        <nav class="nav">
+          <a class="nav-link link-secondary" href="#">Promo</a>
+          <a class="nav-link link-secondary border-start" href="#">Toksmile News</a>
+          <a class="nav-link link-secondary border-start" href="#">Help & center
+          </a>
+          <a class="nav-link link-secondary border-start me-3" href="#">Language</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="row second-nav py-2">
+      <div class="brand-section d-md-block d-sm-none d-none col-md-3 d-flex align-items-center justify-content-center">
+        <img src="./accets/icons/app-store.png" alt="" class="ms-5" />
+        <span class="text-white ms-2">Apple Store</span>
+      </div>
+      <div class="search-section col-md-6 d-flex align-items-center">
+        <div class="input-group">
+          <button class="btn btn-secondary dropdown-toggle fz-14" type="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Products
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item active" href="#">MacBook</a></li>
+            <li><a class="dropdown-item" href="#">Airpad</a></li>
+            <li><a class="dropdown-item" href="#">Phone</a></li>
+            <li><a class="dropdown-item" href="#">Apple tv</a></li>
+          </ul>
+          <input type="text" class="form-control border-1 border-secondary bg-transparent"
+            placeholder="Search Produts Here ..." aria-label="Text input with dropdown button" />
+          <button class="btn search-btn fz-14" type="button">
+            <img src="./accets/icons/search.png" alt="" />
+          </button>
         </div>
       </div>
 
-      <div class="row second-nav py-2">
-        <div
-          class="brand-section d-md-block d-sm-none d-none col-md-3 d-flex align-items-center justify-content-center"
-        >
-          <img src="./accets/icons/app-store.png" alt="" class="ms-5" />
-          <span class="text-white ms-2">Apple Store</span>
-        </div>
-        <div class="search-section col-md-6 d-flex align-items-center">
-          <div class="input-group">
-            <button
-              class="btn btn-secondary dropdown-toggle fz-14"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Products
-            </button>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item active" href="#">MacBook</a></li>
-              <li><a class="dropdown-item" href="#">Airpad</a></li>
-              <li><a class="dropdown-item" href="#">Phone</a></li>
-              <li><a class="dropdown-item" href="#">Apple tv</a></li>
-            </ul>
-            <input
-              type="text"
-              class="form-control border-1 border-secondary bg-transparent"
-              placeholder="Search Produts Here ..."
-              aria-label="Text input with dropdown button"
-            />
-            <button class="btn search-btn fz-14" type="button">
-              <img src="./accets/icons/search.png" alt="" />
-            </button>
-          </div>
-        </div>
-
-        <div
-          class="shop-section col-md-3 d-flex align-items-center justify-content-center"
-        >
-          <div class="dropdown">
-            <button
-              class="btn bg-transparent text-white border dropdown-toggle fz-14"
-              type="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              <span class="pe-1">Shop Bascket</span>
-              <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
-            </button>
-            <ul class="dropdown-menu section-dropdown">
-              <li>
-                <a
-                  class="dropdown-item d-flex justify-content-around align-items-center"
-                  href="#"
-                >
-                  <img
-                    class="img-thumbnail"
-                    src="./accets/img/headphone/1.jpg"
-                    alt=""
-                    width="64px"
-                    height="60px"
-                  />
-                  <ul class="fz-12 list-unstyled">
-                    <li>Apple Phone</li>
-                    <li>Iphone 12</li>
-                    <li>1,200$</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn-close fz-12"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="dropdown-item d-flex justify-content-around align-items-center"
-                  href="#"
-                >
-                  <img
-                    class="img-thumbnail"
-                    src="./accets/img/phone/1.jpg"
-                    alt=""
-                    width="64px"
-                  />
-                  <ul class="fz-12 list-unstyled">
-                    <li>Apple Phone</li>
-                    <li>Iphone 12</li>
-                    <li>1,200$</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn-close fz-12"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </a>
-              </li>
-              <li>
-                <a
-                  class="dropdown-item d-flex justify-content-around align-items-center"
-                  href="#"
-                >
-                  <img
-                    class="img-thumbnail"
-                    src="./accets/img/watch/1.jpg"
-                    alt=""
-                    width="64px"
-                    height="64px"
-                  />
-                  <ul class="fz-12 list-unstyled">
-                    <li>Apple Phone</li>
-                    <li>Iphone 12</li>
-                    <li>1,200$</li>
-                  </ul>
-                  <button
-                    type="button"
-                    class="btn-close fz-12"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </a>
-              </li>
-            </ul>
-          </div>
+      <div class="shop-section col-md-3 d-flex align-items-center justify-content-center">
+        <div class="dropdown">
+          <button class="btn bg-transparent text-white border dropdown-toggle fz-14" type="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="pe-1">Shop Bascket</span>
+            <i class="fa-solid fa-cart-shopping" style="color: #ffffff"></i>
+          </button>
+          <ul class="dropdown-menu section-dropdown">
+            <li>
+              <a class="dropdown-item d-flex justify-content-around align-items-center" href="#">
+                <img class="img-thumbnail" src="./accets/img/headphone/1.jpg" alt="" width="64px" height="60px" />
+                <ul class="fz-12 list-unstyled">
+                  <li>Apple Phone</li>
+                  <li>Iphone 12</li>
+                  <li>1,200$</li>
+                </ul>
+                <button type="button" class="btn-close fz-12" data-bs-dismiss="modal" aria-label="Close"></button>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex justify-content-around align-items-center" href="#">
+                <img class="img-thumbnail" src="./accets/img/phone/1.jpg" alt="" width="64px" />
+                <ul class="fz-12 list-unstyled">
+                  <li>Apple Phone</li>
+                  <li>Iphone 12</li>
+                  <li>1,200$</li>
+                </ul>
+                <button type="button" class="btn-close fz-12" data-bs-dismiss="modal" aria-label="Close"></button>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex justify-content-around align-items-center" href="#">
+                <img class="img-thumbnail" src="./accets/img/watch/1.jpg" alt="" width="64px" height="64px" />
+                <ul class="fz-12 list-unstyled">
+                  <li>Apple Phone</li>
+                  <li>Iphone 12</li>
+                  <li>1,200$</li>
+                </ul>
+                <button type="button" class="btn-close fz-12" data-bs-dismiss="modal" aria-label="Close"></button>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="s-menu row">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container position-relative">
-            <a class="navbar-brand text-white" href="#">Buy</a>
-            <button
-              class="navbar-toggler custom-navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fa-solid fa-bars-staggered"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active text-white"
-                    aria-current="page"
-                    href="#"
-                    >Home
-                  </a>
-                </li>
+    </div>
+    <div class="s-menu row">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container position-relative">
+          <a class="navbar-brand text-white" href="#">Buy</a>
+          <button class="navbar-toggler custom-navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home
+                </a>
+              </li>
 
-                <li class="nav-item dropdown pos-unset">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                  >
-                    Technologhy
-                  </a>
-                  <ul
-                    class="dropdown-menu w-100 custom-have-dropdown flex-column border-0 shadow"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-sm-6 col-md-6 col-lg-8">
+              <li class="nav-item dropdown pos-unset">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                  Technologhy
+                </a>
+                <ul class="dropdown-menu w-100 custom-have-dropdown flex-column border-0 shadow">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-6 col-md-6 col-lg-8">
+                        <ul class="nav flex-column ps-4">
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" aria-current="page" href="#">Mashine</a>
+                          </li>
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" href="#">Yakhchal</a>
+                          </li>
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" href="#">ojagh</a>
+                          </li>
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" href="#">lavazem</a>
+                          </li>
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" href="#">lavazem2</a>
+                          </li>
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" href="#">lavazem3</a>
+                          </li>
+                          <li class="nav-item my-3 custom-transition">
+                            <i class="fa-solid fa-chevron-right"></i>
+                            <a class="nav-link d-inline" href="#">lavazem4</a>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <div
+                        class="col-sm-6 col-md-6 col-lg-4 p-xs-3 p-sm-0 d-flex align-items-center justify-content-center">
+                        <img src="./accets/img/Menu/pc.jpg" alt="" class="img-responsive" />
+                      </div>
+                    </div>
+                    <!-- end of row -->
+                  </div>
+                  <!-- end of container -->
+                </ul>
+                <!-- end of main technologhy dropdown ul -->
+              </li>
+              <!-- end of main technologhy dropdown li -->
+
+              <li class="nav-item dropdown pos-unset">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown">
+                  Super Market
+                </a>
+                <ul class="dropdown-menu w-100 custom-have-dropdown flex-column border-0 shadow">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm-8 col-md-8 col-lg-8 d-flex">
+                        <div class="col-md-4">
                           <ul class="nav flex-column ps-4">
                             <li class="nav-item my-3 custom-transition">
                               <i class="fa-solid fa-chevron-right"></i>
-                              <a
-                                class="nav-link d-inline"
-                                aria-current="page"
-                                href="#"
-                                >Mashine</a
-                              >
+                              <a class="nav-link d-inline" aria-current="page" href="#">Mashine</a>
                             </li>
                             <li class="nav-item my-3 custom-transition">
                               <i class="fa-solid fa-chevron-right"></i>
@@ -292,1089 +243,1121 @@
                             </li>
                           </ul>
                         </div>
-
-                        <div
-                          class="col-sm-6 col-md-6 col-lg-4 p-xs-3 p-sm-0 d-flex align-items-center justify-content-center"
-                        >
-                          <img
-                            src="./accets/img/Menu/pc.jpg"
-                            alt=""
-                            class="img-responsive"
-                          />
+                        <div class="col-md-4">
+                          <ul class="nav flex-column ps-4">
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" aria-current="page" href="#">Mashine</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">Yakhchal</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">ojagh</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem2</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem3</a>
+                            </li>
+                            <li class="nav-item my-3 custom-transition">
+                              <i class="fa-solid fa-chevron-right"></i>
+                              <a class="nav-link d-inline" href="#">lavazem4</a>
+                            </li>
+                          </ul>
                         </div>
                       </div>
-                      <!-- end of row -->
+                      <div
+                        class="col-sm-4 col-md-4 col-lg-4 p-5 p-sm-1 p-lg-0 d-flex align-items-center justify-content-center">
+                        <img src="./accets/img/Menu/pc.jpg" alt="" class="img-responsive" />
+                      </div>
                     </div>
-                    <!-- end of container -->
-                  </ul>
-                  <!-- end of main technologhy dropdown ul -->
-                </li>
-                <!-- end of main technologhy dropdown li -->
+                    <!-- end of row -->
+                  </div>
+                  <!-- end of container -->
+                </ul>
+                <!-- end of main technologhy dropdown ul -->
+              </li>
+              <!-- end of main Super market dropdown li -->
 
-                <li class="nav-item dropdown pos-unset">
-                  <a
-                    class="nav-link dropdown-toggle text-white"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                  >
-                    Super Market
-                  </a>
-                  <ul
-                    class="dropdown-menu w-100 custom-have-dropdown flex-column border-0 shadow"
-                  >
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-sm-8 col-md-8 col-lg-8 d-flex">
-                          <div class="col-md-4">
-                            <ul class="nav flex-column ps-4">
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a
-                                  class="nav-link d-inline"
-                                  aria-current="page"
-                                  href="#"
-                                  >Mashine</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >Yakhchal</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#">ojagh</a>
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem2</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem3</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem4</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-md-4">
-                            <ul class="nav flex-column ps-4">
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a
-                                  class="nav-link d-inline"
-                                  aria-current="page"
-                                  href="#"
-                                  >Mashine</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >Yakhchal</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#">ojagh</a>
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem2</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem3</a
-                                >
-                              </li>
-                              <li class="nav-item my-3 custom-transition">
-                                <i class="fa-solid fa-chevron-right"></i>
-                                <a class="nav-link d-inline" href="#"
-                                  >lavazem4</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div
-                          class="col-sm-4 col-md-4 col-lg-4 p-5 p-sm-1 p-lg-0 d-flex align-items-center justify-content-center"
-                        >
-                          <img
-                            src="./accets/img/Menu/pc.jpg"
-                            alt=""
-                            class="img-responsive"
-                          />
-                        </div>
-                      </div>
-                      <!-- end of row -->
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"> Digital product</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-warning" aria-current="page" href="#" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Sign in</a>
+              </li>
+              <!-- sign in modal  -->
+              <!-- Modal -->
+              <div class="modal fade signin-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header border-0 d-flex flex-column">
+                      <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h1 class="fw-bold mb-0 fs-2">Welcome back !</h1>
+
+                      <p class="mt-2 text-secondary">
+                        Start managing your faster and better
+                      </p>
                     </div>
-                    <!-- end of container -->
-                  </ul>
-                  <!-- end of main technologhy dropdown ul -->
-                </li>
-                <!-- end of main Super market dropdown li -->
+                    <div class="modal-body">
+                      <form class="">
+                        <div class="form-floating mb-3">
+                          <input type="email" class="form-control rounded-3 border-0 border-bottom position-relative"
+                            id="floatingInput" placeholder="name@example.com" />
+                          <img src="./accets/icons/app-store.png" alt=""
+                            class="img-fluid position-absolute z-1 input-icons" width="32px" />
+                          <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                          <input type="password" class="form-control rounded-3 border-0 border-bottom position-relative"
+                            id="floatingPassword" placeholder="Password" />
+                          <img src="./accets/icons/app-store.png" alt=""
+                            class="img-fluid position-absolute z-1 input-icons" width="32px" />
+                          <label for="floatingPassword">Password</label>
+                        </div>
+                        <a href="#" class="text-decoration-none float-end mb-2">Forgot Password ?</a>
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">
+                          Login
+                        </button>
+                        <hr />
+                        <p class="or-text text-center">Or</p>
 
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#"> Digital product</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Disabled</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">Contact us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-white" href="#">About us</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link text-warning"
-                    aria-current="page"
-                    href="#"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                    >Sign in</a
-                  >
-                </li>
-                <!-- sign in modal  -->
-                <!-- Modal -->
-                <div
-                  class="modal fade signin-modal"
-                  id="exampleModal"
-                  tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
-                  aria-hidden="true"
-                >
-                  <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                      <div class="modal-header border-0 d-flex flex-column">
-                        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
-                        <button
-                          type="button"
-                          class="btn-close"
-                          data-bs-dismiss="modal"
-                          aria-label="Close"
-                        ></button>
-                        <h1 class="fw-bold mb-0 fs-2">Welcome back !</h1>
-
-                        <p class="mt-2 text-secondary">
-                          Start managing your faster and better
-                        </p>
-                      </div>
-                      <div class="modal-body">
-                        <form class="">
-                          <div class="form-floating mb-3">
-                            <input
-                              type="email"
-                              class="form-control rounded-3 border-0 border-bottom position-relative"
-                              id="floatingInput"
-                              placeholder="name@example.com"
-                            />
-                            <img
-                              src="./accets/icons/app-store.png"
-                              alt=""
-                              class="img-fluid position-absolute z-1 input-icons"
-                              width="32px"
-                            />
-                            <label for="floatingInput">Email address</label>
+                        <div class="col-sm-12 d-flex my-3">
+                          <div
+                            class="col-sm-4 offset-2 d-flex border p-2 rounded-2 align-items-center justify-content-center">
+                            <img class="me-2" src="./accets/icons/apple.png" alt="" width="24px" />
+                            <a href="" class="text-decoration-none ps-1 text-black">Google</a>
                           </div>
-                          <div class="form-floating mb-3">
-                            <input
-                              type="password"
-                              class="form-control rounded-3 border-0 border-bottom position-relative"
-                              id="floatingPassword"
-                              placeholder="Password"
-                            />
-                            <img
-                              src="./accets/icons/app-store.png"
-                              alt=""
-                              class="img-fluid position-absolute z-1 input-icons"
-                              width="32px"
-                            />
-                            <label for="floatingPassword">Password</label>
-                          </div>
-                          <a
-                            href="#"
-                            class="text-decoration-none float-end mb-2"
-                            >Forgot Password ?</a
-                          >
-                          <button
-                            class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
-                            type="submit"
-                          >
-                            Login
-                          </button>
-                          <hr />
-                          <p class="or-text text-center">Or</p>
-
-                          <div class="col-sm-12 d-flex my-3">
-                            <div
-                              class="col-sm-4 offset-2 d-flex border p-2 rounded-2 align-items-center justify-content-center"
-                            >
-                              <img
-                                class="me-2"
-                                src="./accets/icons/apple.png"
-                                alt=""
-                                width="24px"
-                              />
-                              <a
-                                href=""
-                                class="text-decoration-none ps-1 text-black"
-                                >Google</a
-                              >
-                            </div>
-
-                            <div
-                              class="col-sm-4 offset-1 d-flex border p-2 rounded-2 align-items-center justify-content-center"
-                            >
-                              <img
-                                class="me-2"
-                                src="./accets/icons/apple.png"
-                                alt=""
-                                width="24px"
-                              />
-                              <a
-                                href=""
-                                class="text-decoration-none ps-1 text-black"
-                                >Facebook</a
-                              >
-                            </div>
-                          </div>
-                          <!-- end of buttons -->
 
                           <div
-                            class="col-12 d-flex mt-4 justify-content-center align-items-center"
-                          >
-                            <p class="text-secondary">
-                              Dont you have an account?
-                            </p>
-                            <a href="" class="ms-2 text-decoration-none"
-                              >Sign Up</a
-                            >
+                            class="col-sm-4 offset-1 d-flex border p-2 rounded-2 align-items-center justify-content-center">
+                            <img class="me-2" src="./accets/icons/apple.png" alt="" width="24px" />
+                            <a href="" class="text-decoration-none ps-1 text-black">Facebook</a>
                           </div>
-                        </form>
-                      </div>
+                        </div>
+                        <!-- end of buttons -->
+
+                        <div class="col-12 d-flex mt-4 justify-content-center align-items-center">
+                          <p class="text-secondary">
+                            Dont you have an account?
+                          </p>
+                          <a href="" class="ms-2 text-decoration-none">Sign Up</a>
+                        </div>
+                      </form>
                     </div>
                   </div>
                 </div>
+              </div>
 
-                <!-- end of sign in modal -->
-              </ul>
+              <!-- end of sign in modal -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+
+  <!-- start product details section -->
+  <section class="container product-details bg-white mt-3 rounded-2">
+    <div class="row">
+      <nav aria-label="breadcrumb " class="mt-2">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="#" class="text-decoration-none">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Macbook</li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Apple Macbook pro 2021
+          </li>
+        </ol>
+      </nav>
+      <!-- end of breadcrumb -->
+
+      <div class="col-sm-12 col-md-5 border-end">
+        <img src="./accets/img/phone/1.jpg" class="img-fluid rounded-2" alt="" />
+      </div>
+      <!-- end of images -->
+
+      <div class="col-sm-12 col-md-4 ">
+        <h5>Apple Macbook Pro 2021 14 "inch" M1 Chip</h5>
+        <p class="fz-16">$2690,15</p>
+        <div class="offer-rating mt-3">
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star text-warning"></i>
+          <i class="fas fa-star"></i>
+          (17 comments)
+        </div>
+        <hr />
+        <div class="colors">
+          <p class="mb-2">Color</p>
+          <span class="yellow"></span>
+          <span class="green"></span>
+          <span class="silver"></span>
+          <span class="blue"></span>
+          <span class="gold"></span>
+          <span class="red"></span>
+
+
+        </div>
+
+        <hr>
+
+        <div class="processor">
+          <p>processor</p>
+          <div class="processor-buttons d-flex justify-content-around mt-3">
+            <button type="button" class="btn btn-outline-primary fz-12">32Gb , 32core Apple M1 Pro</button>
+            <button type="button" class="btn btn-outline-secondary fz-12">16Gb, 16core Apple M1 Pro</button>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="Memory-size">
+          <p>Meemory Size</p>
+          <div class="processor-buttons d-flex  mt-3 ps-3">
+            <button type="button" class="btn btn-outline-primary fz-12 w-25">512 Gb</button>
+            <button type="button" class="btn btn-outline-secondary fz-12 ms-2 w-25">1 TB</button>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="send-section d-flex flex-column">
+          <div class="send-items d-flex flex-row">
+            <img src="./accets/icons/product/shipped.png" alt="" class="img-fluid" width="24px">
+            <p class="text-secondary fz-14 ms-2">Sent From <Strong class="text-black fz-16">Soekarno-hatta Street ,
+                Uk</Strong></p>
+          </div>
+          <div class="send-items d-flex flex-row mt-2">
+            <img src="./accets/icons/product/pie-chart.png" alt="" class="img-fluid" width="24px">
+            <p class="text-secondary fz-14 ms-2"> Shipping Cost <Strong class="text-black fz-16">$20</Strong></p>
+          </div>
+          <div class="send-items d-flex flex-row mt-2">
+            <img src="./accets/icons/product/box.png" alt="" class="img-fluid" width="24px">
+            <p class="text-secondary fz-14 ms-2">Estimated Delivery <Strong class="text-black fz-16">3 Days</Strong></p>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- end of middle section -->
+
+      <!-- start end section -->
+      <div class="col-sm-12 col-md-3 ">
+        <div class="quantity">
+          <p class="mb-2">Set Quantity</p>
+          <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 me-1" href="#" id="plus">+</a>
+          <input type="text" id="numberInput" value="0" class="border text-center">
+          <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 ms-1" href="#" id="minus">-</a>
+          <p class="text-secondary mt-2">Only <span class="text-primary">5 items</span> Left !</p>
+        </div>
+        <!-- end set Quantity -->
+
+
+        <div class="add-notse-section mt-5">
+          <h6>Add Notes</h6>
+          <input type="email" class="form-control pb-7 rounded-3" id="floatingInput" placeholder="Type here ...">
+        </div>
+
+
+        <div class="buy-section d-flex flex-column mt-5">
+          <div class="d-flex justify-content-between mb-3">
+            <span>Sub Total</span>
+            <strong> $ 2690,15</strong>
+          </div>
+          <button type="button" class="btn btn-primary mt-2">Buy Now</button>
+          <button type="button" class="btn btn-light mt-2 border-3">Add to Card</button>
+
+          <div class="buy-icons d-flex mt-3 justify-content-around">
+            <div class="buy-icons-item d-flex ">
+              <img src="./accets/icons/product/message.png" alt="" class="img-fluid" width="20px" height="16px">
+              <p class="ms-2 text-secondary">Chat </p>
+            </div>
+            <div class="buy-icons-item d-flex ">
+              <img src="./accets/icons/product/love.png" alt="" class="img-fluid" width="20px" height="16px">
+              <p class="ms-2 text-secondary">Wishlist </p>
+            </div>
+            <div class="buy-icons-item d-flex ">
+              <img src="./accets/icons/product/share.png" alt="" class="img-fluid" width="20px" height="16px">
+              <p class="ms-2 text-secondary">Share </p>
             </div>
           </div>
-        </nav>
-      </div>
-    </nav>
-    <!-- end of navbar -->
+        </div>
 
-    <!-- start product details section -->
-    <section class="container product-details bg-white mt-3 rounded-2">
+      </div>
+    </div>
+  </section>
+  <!-- end of product details -->
+
+  <section class="container product-tabs mt-5 bg-white">
+    <div class="row">
+      <div class="col-sm-12 p-2">
+        <nav>
+          <div class="nav nav-tabs custom-navtabs-product " id="nav-tab" role="tablist">
+            <div class="d-flex position-relative">
+
+              <button class="nav-link active  ps-5" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Introduction</button>
+              <img class="position-absolute tab-icon tab-icon-1" src="./accets/icons/product/presentation.png" alt=""
+                width="24px" height="24px">
+            </div>
+            <div class="d-flex position-relative">
+
+              <button class="nav-link text-dark ps-5" id="nav-profile-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                aria-selected="false">Expert check</button>
+              <img class="position-absolute tab-icon tab-icon-2" src="./accets/icons/product/criminal-record.png" alt=""
+                width="24px" height="24px">
+            </div>
+            <div class="d-flex position-relative">
+
+              <button class="nav-link text-dark ps-5" id="nav-contact-tab" data-bs-toggle="tab"
+                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                aria-selected="false">Specifications</button>
+              <img class="position-absolute tab-icon tab-icon-3" src="./accets/icons/product/clipboard.png" alt=""
+                width="24px" height="24px">
+            </div>
+
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade  bg-secondary-subtle  show active " id="nav-home" role="tabpanel"
+            aria-labelledby="nav-home-tab" tabindex="0">
+            <h5 class="p-3">Introduction </h5>
+            <div class="row">
+
+              <div class="col-sm-6 d-flex offset-3">
+                <img src="./accets/img/mackbook-banner/main.png" class="img-fluid rounded" alt="">
+              </div>
+            </div>
+            <p class="p-3 lh-lg">Apple's MacBook laptops to date have been able to perform well and acceptable
+              performance without any additional definitions. One of the powerful laptops in this series is the MacBook
+              MK193 2021. The laptop is equipped with a 16.2 -inch display with a resolution of 3456 × 3456 pixels of
+              the Liquid Retina XDR, which is capable of displaying 254 pixels per inch. We have to say that, given the
+              specifications, we have a powerful and high quality display. But the powerful features of this screen are
+              not over and you should know that it is capable of delivering an update rate of 120 Hz, which brings you a
+              smooth screen without any lag. But undoubtedly the main feature of Apple's series laptops is the
+              processors intended. The MacBook MK193 2021 is also equipped with a powerful Apple M1 Pro processor, which
+              is capable of providing excellent performance in executing heavy software. The 2.1kg weight of this laptop
+              also has no problem with it, and the compact size of the MacBook Pro MK193 2021 does not occupy much
+              space.</p>
+
+
+
+            <div class="row mt-5 p-3 products-desc-steps">
+              <div class="col-sm-12">
+                <p class="text-danger fw-bold fs-2 text-center my-4">Overview</p>
+                <ul class="nav flex-column">
+
+                  <li class="nav-item products-desc-step mt-2 position-relative">
+                    <div class="img-wrapper">
+                      <img src="./accets/img/mackbook-banner/1 (1).webp" class="img-fluid mb-4" alt="">
+                    </div>
+                    <i class="far fa-dot-circle"></i>
+                    <p class="lh-lg fz-16 p-4">MacBook Pro 2021 has a new design. The screen of this MacBook is designed
+                      in 2 sizes of 14 inches and 16 inches, and their size has been slightly increased. The dimensions
+                      of the 14-inch model are 1.55cm x 31.26cm x 22.12cm, which is slightly larger than the MacBook Pro
+                      M1 (13-inch) which measures 1.56cm x 30.41cm x 21.24cm. The 16-inch MacBook Pro is also designed
+                      in the size of 1.62cm x 35.79cm x 24.59cm. The weight of the 16-inch model is about 0.2 kg and the
+                      14-inch model is 1.6 kg.</p>
+                  </li>
+
+                  <li class="nav-item products-desc-step mt-2 position-relative pt-5">
+                    <div class="img-wrapper">
+                      <img src="./accets/img/mackbook-banner/1 (2).webp" class="img-fluid mb-4" alt="">
+                    </div>
+                    <i class="far fa-dot-circle"></i>
+                    <p class="lh-lg fz-16 p-4">Currently, the 14-inch and 16-inch MacBook Pros have a 1080p FaceTime HD
+                      camera. This new camera doubles image resolution and dramatically improves low-light performance.
+                      It can be said that this is the same camera used in the iMac M1, which was presented in 2021.
+                      Apple has been able to improve the sound quality and audio features of its new device by using
+                      studio-quality mics. In this way, it reduces thermal noise and creates clearer contacts. Apple has
+                      also added a six-speaker audio system to the 2021 MacBook, which features two tweeters and four
+                      force-cancelling woofers. Apple has announced that this will result in 80% more bass. The audio
+                      system of the new MacBooks also supports spatial audio for a 3D listening experience.</p>
+                  </li>
+
+                  <li class="nav-item products-desc-step mt-2 position-relative">
+                    <div class="img-wrapper">
+                      <img src="./accets/img/mackbook-banner/1 (3).webp" class="img-fluid mb-4" alt="">
+                    </div>
+                    <i class="far fa-dot-circle"></i>
+                    <p class="lh-lg fz-16 p-4">The 2021 MacBook Pro was released on October 18 in 14.2-inch and
+                      16.2-inch sizes, featuring mini-LED displays, more ports, up to 64GB of storage, and Apple's more
+                      powerful chips, the M1 Pro and M1 Max. . In short, we can say that they are the best MacBook Pro
+                      models introduced to date.</p>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+            <!-- end of steps -->
+          </div>
+          <!-- end of first tab-pane  -->
+
+          <div class="tab-pane fade  product-specifications-wrapper" id="nav-profile" role="tabpanel"
+            aria-labelledby="nav-profile-tab" tabindex="0">
+
+            <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+              <i class="fa-solid fa-chevron-right"></i>
+              <h5 class="ms-2">Performance</h5>
+            </div>
+            <ul class="nav flex-column product-specifications-ul mt-3">
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Processor</span>
+                <p class=" text-center">Apple M1 Pro chip</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">GPU</span>
+                <p class=" text-center">14-core GPU</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">RAM</span>
+                <p class=" text-center">16GB unified memory</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">SSD </span>
+                <p class=" text-center">512GB (Configurable to: 1TB, 2TB, 4TB or 8TB)</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">OS</span>
+                <p class=" text-center"> macOS</p>
+              </li>
+            </ul>
+            <!-- end of first specifications ul  -->
+            <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+              <i class="fa-solid fa-chevron-right"></i>
+              <h5 class="ms-2">Display</h5>
+            </div>
+            <ul class="nav flex-column product-specifications-ul mt-3">
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Display Size</span>
+                <p class=" text-center"> 14.2-inch 3024x1964, 120Hz</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Display Type </span>
+                <p class=" text-center"> Liquid Retina XDR display</p>
+              </li>
+
+            </ul>
+            <!-- end of second specifications ul  -->
+            <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+              <i class="fa-solid fa-chevron-right"></i>
+              <h5 class="ms-2">IO and Ports</h5>
+            </div>
+            <ul class="nav flex-column product-specifications-ul mt-3">
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Fingerprint Sensor</span>
+                <p class=" text-center">Touch ID</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Camera</span>
+                <p class=" text-center"> 1080p FaceTime HD camera | Advanced image signal processor with computational
+                  video</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Keyboard</span>
+                <p class=" text-center"> Backlit Magic Keyboard (78 (US) or 79 (ISO) keys including 12 full-height
+                  function keys and 4 arrow keys in an inverted-T arrangement)</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Touchpad</span>
+                <p class=" text-center">Yes. Force Touch trackpad for precise cursor control and pressure-sensing
+                  capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures
+                </p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">IO Ports</span>
+                <p class=" text-center"> SDXC card slot
+                  HDMI port
+                  3.5mm headphone jack
+                  MagSafe 3 port</p>
+              </li>
+            </ul>
+            <!-- end of third  specifications-->
+            <div class="title-text d-flex mt-4 align-items-center border-bottom ">
+              <i class="fa-solid fa-chevron-right"></i>
+              <h5 class="ms-2">Connectivity</h5>
+            </div>
+            <ul class="nav flex-column product-specifications-ul mt-3">
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">WIFI</span>
+                <p class=" text-center"> 802.11ax Wi-Fi 6 wireless networking, IEEE 802.11a/b/g/n/ac compatible</p>
+              </li>
+              <li class="nav-item d-flex  product-specifications-li mb-2 ">
+                <span class=" text-center">Bluetooth </span>
+                <p class=" text-center"> Bluetooth 5.0 wireless technology</p>
+              </li>
+
+            </ul>
+            <!-- end of last  specifications-->
+            <button type="button" class="btn btn-primary mt-2 border-3"> + Add to Card</button>
+          </div>
+          <!-- end of second tab pan -->
+          <div class="users-feedback tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+            tabindex="0">
+            <div class="row">
+
+
+              <div class=" product-progresses-wrapper  col-xl-4 mt-3 p-2">
+                <h4 class="text-center">Users feedback</h4>
+                <div class="product-progresses-item p-2 mb-3 border-1">
+                  <div class="top-desc d-flex justify-content-between">
+                    <p>hello</p>
+                    <span class="me-1 fz-14">26 comments</span>
+                  </div>
+                  <div class="progress " style="height: 3px;">
+                    <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high"
+                      style="width: 92%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                    <p class="text-success">92%</p>
+                    <span class="text-danger">8%</span>
+                  </div>
+                </div>
+                <div class="product-progresses-item p-2 mb-3">
+                  <div class="top-desc d-flex justify-content-between">
+                    <p>hello</p>
+                    <span class="me-1 fz-14">49 comments</span>
+                  </div>
+                  <div class="progress " style="height: 3px;">
+                    <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high"
+                      style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                    <p class="text-success">80%</p>
+                    <span class="text-danger">20%</span>
+                  </div>
+                </div>
+                <div class="product-progresses-item p-2 mb-3">
+                  <div class="top-desc d-flex justify-content-between">
+                    <p>hello</p>
+                    <span class="me-1 fz-14">51 comments</span>
+                  </div>
+                  <div class="progress " style="height: 3px;">
+                    <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high"
+                      style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                    <p class="text-success">75%</p>
+                    <span class="text-danger">25%</span>
+                  </div>
+                </div>
+                <div class="product-progresses-item p-2 mb-3">
+                  <div class="top-desc d-flex justify-content-between">
+                    <p>hello</p>
+                    <span class="me-1 fz-14">99 comments</span>
+                  </div>
+                  <div class="progress " style="height: 3px;">
+                    <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high"
+                      style="width: 69%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
+                    <p class="text-success">69%</p>
+                    <span class="text-danger">31%</span>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <!-- end of progresses -->
+
+              <div class="col-xl-8 user-comments-wrapper mt-4">
+                <div class=" comments-header col-12 ">
+                  <div class="comments-headers-stars ">
+                    <i class="fa-solid fa-star text-warning "></i>
+                    <span>1</span>
+                  </div>
+                  <div class="comments-headers-stars ">
+                    <i class="fa-solid fa-star text-warning "></i>
+                    <span>2</span>
+                  </div>
+                  <div class="comments-headers-stars ">
+                    <i class="fa-solid fa-star text-warning "></i>
+                    <span>3</span>
+                  </div>
+                  <div class="comments-headers-stars ">
+                    <i class="fa-solid fa-star text-warning "></i>
+                    <span>4</span>
+                  </div>
+                  <div class="comments-headers-stars ">
+                    <i class="fa-solid fa-star text-warning "></i>
+                    <span>5</span>
+                  </div>
+
+                </div>
+                <!-- end of user wrapper header -->
+                <div class="comments-users col-12 mt-4">
+                  <div class="col-12 users-photos-header">
+                    <h3>tasavir kharid</h3>
+                  </div>
+                  <div class="col-12 user-photos d-flex mt-3">
+
+                    <img src="./accets/img/mackbook-banner/1 (1).webp" alt="" class="img-fluid rounded-1" height="200px"
+                      width="200px">
+                    <img src="./accets/img/mackbook-banner/1 (2).webp" alt="" class="img-fluid rounded-1" height="200px"
+                      width="200px">
+                    <img src="./accets/img/mackbook-banner/1 (3).webp" alt="" class="img-fluid rounded-1" height="200px"
+                      width="200px">
+                    <img src="./accets/img/mackbook-banner/1 (4).webp" alt="" class="img-fluid rounded-1" height="200px"
+                      width="200px">
+                  </div>
+                  <!-- end of user comments  -->
+
+                  <div class="col-12 user-comments d-flex flex-column mt-7">
+                    <div class="comment  p-4 rounded-2 border-black d-flex flex-column">
+                      <div class="comment-top d-flex justify-content-between">
+                        <div class="">
+                          <img src="./accets/img/user comments photo/1 (3).jpg" class="rounded-circle" alt=""
+                            width="50px" height="56px">
+                          <span> Alexia</span>
+                        </div>
+                        <span class="fz-14 text-secondary  me-2">19 hours ago</span>
+                      </div>
+                      <!-- end of image and name and time  -->
+                      <div class="d-flex mt-1">
+                        <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                          class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                          class="fa-solid fa-star text-warning"></i>
+                      </div>
+                      <!-- end of stars -->
+
+                      <p class="fw-bold mt-3">Wonderful </p>
+                      <span class="fz-12 ms-2 text-secondary"> Model : 8-Core GPU , Memori : 12Gb , Color :
+                        Silver</span>
+                      <p class="mt-2">As someone who has been buying high-end Windows laptops for years and has
+                        suggested to others Apple MacBooks, which are simply classy and no longer worth anything, I must
+                        say that after the introduction of the M1 Pro series MacBooks and with the dollar price drop
+                        that came with the introduction New find series, I consider this MacBook M1 Pro mk193 very
+                        valuable and recommend it.</p>
+                      <ul class="mt-3">
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">The touchpad that made me not need a mouse (I didn't think so)</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">The build quality is very, very high, which I have not seen in any
+                            Windows laptop</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">Screen quality and a very well made and slim LED</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-danger">-</span>
+                          <p class="fz-14 ms-1">Nachi does not have face recognition</p>
+                        </li>
+                      </ul>
+                      <div class="buttons d-flex mt-4 justify-content-end">
+                        <button type="button" class="btn btn-outline-primary px-3 me-3 "><i
+                            class="fa-solid fa-thumbs-up"></i></button>
+                        <button type="button" class="btn btn-outline-danger px-3"><i
+                            class="fa-solid fa-thumbs-down"></i></button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 user-comments d-flex flex-column mt-7">
+                    <div class="comment  p-4 rounded-2 border-black d-flex flex-column">
+                      <div class="comment-top d-flex justify-content-between">
+                        <div class="">
+                          <img src="./accets/img/user comments photo/1 (2).jpg" class="rounded-circle " alt=""
+                            width="50px" height="56px">
+                          <span>Kevin ibra</span>
+                        </div>
+                        <span class="fz-14 text-secondary  me-2">19 hours ago</span>
+                      </div>
+                      <!-- end of image and name and time  -->
+                      <div class="d-flex mt-1">
+                        <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                          class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                          class="fa-solid fa-star text-warning"></i>
+                      </div>
+                      <!-- end of stars -->
+
+                      <p class="fw-bold mt-3">I suggest </p>
+                      <span class="fz-12 ms-2 text-secondary"> Model : 8-Core GPU , Memori : 12Gb , Color :
+                        Silver</span>
+                      <p class="mt-2">I've had it for a year, everything is great, I haven't seen any negative points
+                      </p>
+                      <ul class="mt-3">
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">The touchpad that made me not need a mouse (I didn't think so)</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">The build quality is very, very high, which I have not seen in any
+                            Windows laptop</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">Screen quality and a very well made and slim LED</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-danger">-</span>
+                          <p class="fz-14 ms-1">Nachi does not have face recognition</p>
+                        </li>
+                      </ul>
+                      <div class="buttons d-flex mt-4 justify-content-end">
+                        <button type="button" class="btn btn-outline-primary px-3 me-3 "><i
+                            class="fa-solid fa-thumbs-up"></i></button>
+                        <button type="button" class="btn btn-outline-danger px-3"><i
+                            class="fa-solid fa-thumbs-down"></i></button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 user-comments d-flex flex-column mt-7 mb-5">
+                    <div class="comment  p-4 rounded-2 border-black d-flex flex-column">
+                      <div class="comment-top d-flex justify-content-between">
+                        <div class="">
+                          <img src="./accets/img/user comments photo/1 (1).jpg" class="rounded-circle " alt=""
+                            width="50px" height="56px">
+                          <span>Lionel messi</span>
+                        </div>
+                        <span class="fz-14 text-secondary  me-2">2 days ago</span>
+                      </div>
+                      <!-- end of image and name and time  -->
+                      <div class="d-flex mt-1">
+                        <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i
+                          class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
+                      </div>
+                      <!-- end of stars -->
+
+                      <p class="fw-bold mt-3">A unique device </p>
+                      <span class="fz-12 ms-2 text-secondary"> Model : 8-Core GPU , Memori : 16Gb , Color : Gold</span>
+                      <p class="mt-2">High quality experience incomparable to other Asus and Microsoft laptops, etc</p>
+                      <ul class="mt-3">
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">The touchpad that made me not need a mouse (I didn't think so)</p>
+                        </li>
+
+                        <li class="d-flex mt-1"><span class="text-success">+</span>
+                          <p class="fz-14 ms-1">Screen quality and a very well made and slim LED</p>
+                        </li>
+                        <li class="d-flex mt-1"><span class="text-danger">-</span>
+                          <p class="fz-14 ms-1">Nachi does not have face recognition</p>
+                        </li>
+                      </ul>
+                      <div class="buttons d-flex mt-4 justify-content-end">
+                        <button type="button" class="btn btn-outline-primary px-3 me-3 "><i
+                            class="fa-solid fa-thumbs-up"></i></button>
+                        <button type="button" class="btn btn-outline-danger px-3"><i
+                            class="fa-solid fa-thumbs-down"></i></button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- end of user comments -->
+                </div>
+              </div>
+              <!-- end of user comments wrapper -->
+            </div>
+            <!-- end of row -->
+          </div>
+          <!-- end of third pane -->
+
+        </div>
+        <!-- end of nav tabs -->
+      </div>
+    </div>
+  </section>
+  <!-- end of product tabs -->
+
+  <!-- start product carousel -->
+  <!-- start products -->
+  <section class="container products-carousel mt-5" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+    <div class="row mt-5 mb-3">
+      <div class="col-sm-12">
+        <h3>Recommended</h3>
+      </div>
+      <div class="col-12">
+        <div class="owl-carousel owl-theme">
+          <div class="item  ">
+            <div class="card position-relative">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card border-0">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card ">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card ">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card ">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/5.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card ">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/6.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card ">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/7.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="item ">
+            <div class="card ">
+              <div class="card-icon position-absolute">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <img src="./accets/img/paroduct-carousel/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fs-6 d-flex justify-content-between"><span class="fw-bold">Flower Laptop
+                    Sleeve</span> <span class="fw-light"><sup class="fz-10">$</sup> <span class="fz-14 price">39</span>
+                    <sup class="fz-10">.00</sup> </span> </h5>
+                <p class="card-text mt-1">
+                <p class="fz-12 text-secondary">15 inch , 256 SSD , 8 core CPU , 12GB</p>
+                <p class="fz-12 mt-1 text-success"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> (123)
+                </p>
+                </p>
+                <a href="#" class="btn btn-primary mt-3  rounded rounded-5 bg-white text-dark products-btn">Add to
+                  Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end of products -->
+  <!-- end of carousel -->
+
+  <!-- start footer section -->
+  <section class="container mt-8" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine"
+    data-aos-delay="500">
+    <footer class="py-3">
       <div class="row">
-        <nav aria-label="breadcrumb " class="mt-2">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="#" class="text-decoration-none">Home</a>
+        <div class="col-6 col-md-2 mb-3">
+          <h5 class="ul-tittles">Entertainment</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item p-2 mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Apple One </a>
             </li>
-            <li class="breadcrumb-item active" aria-current="page">Macbook</li>
-            <li class="breadcrumb-item active" aria-current="page">
-              Apple Macbook pro 2021
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Apple News+ </a>
             </li>
-          </ol>
-        </nav>
-        <!-- end of breadcrumb -->
-
-        <div class="col-sm-12 col-md-5 border-end">
-          <img
-            src="./accets/img/phone/1.jpg"
-            class="img-fluid rounded-2"
-            alt=""
-          />
-        </div>
-        <!-- end of images -->
-
-        <div class="col-sm-12 col-md-4 ">
-          <h5 >Apple Macbook Pro 2021 14 "inch" M1 Chip</h5>
-          <p class="fz-16">$2690,15</p>
-          <div class="offer-rating mt-3">
-            <i class="fas fa-star text-warning"></i>
-            <i class="fas fa-star text-warning"></i>
-            <i class="fas fa-star text-warning"></i>
-            <i class="fas fa-star text-warning"></i>
-            <i class="fas fa-star"></i>
-            (17 comments)
-          </div>
-          <hr />
-          <div class="colors">
-            <p class="mb-2">Color</p>
-            <span class="yellow"></span>
-            <span class="green"></span>
-            <span class="silver"></span>
-            <span class="blue"></span>
-            <span class="gold"></span>
-              <span class="red"></span>
-            
-              
-          </div>
-
-          <hr>
-
-          <div class="processor">
-            <p>processor</p>
-            <div class="processor-buttons d-flex justify-content-around mt-3">
-                <button type="button" class="btn btn-outline-primary fz-12">32Gb , 32core   Apple M1 Pro</button>
-                <button type="button" class="btn btn-outline-secondary fz-12">16Gb, 16core   Apple M1 Pro</button>
-            </div>
-
-          </div>
-
-          <hr>
-
-         <div class="Memory-size">
-            <p>Meemory Size</p>
-            <div class="processor-buttons d-flex  mt-3 ps-3">
-                <button type="button" class="btn btn-outline-primary fz-12 w-25">512 Gb</button>
-                <button type="button" class="btn btn-outline-secondary fz-12 ms-2 w-25">1 TB</button>
-            </div>
-
-          </div>
-
-          <hr>
-
-          <div class="send-section d-flex flex-column">
-            <div class="send-items d-flex flex-row">
-                <img src="./accets/icons/product/shipped.png" alt="" class="img-fluid" width="24px">
-                <p class="text-secondary fz-14 ms-2">Sent From <Strong class="text-black fz-16">Soekarno-hatta Street , Uk</Strong></p>
-            </div>
-            <div class="send-items d-flex flex-row mt-2">
-                <img src="./accets/icons/product/pie-chart.png" alt="" class="img-fluid" width="24px">
-                <p class="text-secondary fz-14 ms-2"> Shipping Cost <Strong class="text-black fz-16">$20</Strong></p>
-            </div>
-            <div class="send-items d-flex flex-row mt-2">
-                <img src="./accets/icons/product/box.png" alt="" class="img-fluid" width="24px">
-                <p class="text-secondary fz-14 ms-2">Estimated Delivery  <Strong class="text-black fz-16">3 Days</Strong></p>
-            </div>
-          </div>
-
-
-        </div>
-        <!-- end of middle section -->
-
-        <!-- start end section -->
-        <div class="col-sm-12 col-md-3 ">
-            <div class="quantity">
-                <p class="mb-2">Set Quantity</p>
-                <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 me-1" href="#" id="plus">+</a>
-                <input type="text" id="numberInput" value="0" class="border text-center">
-                <a class="text-decoration-none bg-primary-subtle py-1 px-2 rounded-1 ms-1" href="#" id="minus">-</a>
-                <p class="text-secondary mt-2">Only <span class="text-primary">5 items</span> Left !</p>
-            </div>
-            <!-- end set Quantity -->
-            
-
-            <div class="add-notse-section mt-5">
-                <h6>Add Notes</h6>
-                 <input type="email" class="form-control pb-7 rounded-3" id="floatingInput" placeholder="Type here ...">
-            </div>
-
-           
-            <div class="buy-section d-flex flex-column mt-5">
-                <div class="d-flex justify-content-between mb-3">
-                    <span>Sub Total</span>
-                    <strong> $ 2690,15</strong>
-                </div> 
-                <button type="button" class="btn btn-primary mt-2">Buy Now</button>
-               <button type="button" class="btn btn-light mt-2 border-3">Add to Card</button>
-
-               <div class="buy-icons d-flex mt-3 justify-content-around">
-                    <div class="buy-icons-item d-flex ">
-                        <img src="./accets/icons/product/message.png" alt="" class="img-fluid" width="20px" height="16px">
-                        <p class="ms-2 text-secondary">Chat </p>
-                    </div>
-                    <div class="buy-icons-item d-flex ">
-                          <img src="./accets/icons/product/love.png" alt="" class="img-fluid" width="20px" height="16px">
-                        <p class="ms-2 text-secondary">Wishlist </p>
-                    </div>
-                      <div class="buy-icons-item d-flex ">
-                        <img src="./accets/icons/product/share.png" alt="" class="img-fluid" width="20px" height="16px">
-                        <p class="ms-2 text-secondary">Share </p>
-                    </div>
-               </div>
-            </div>
-
-        </div>
-      </div>
-    </section>
-    <!-- end of product details -->
-
-    <section class="container product-tabs mt-5 bg-white">
-        <div class="row">
-            <div class="col-sm-12 p-2">
-                <nav>
-                    <div class="nav nav-tabs custom-navtabs-product " id="nav-tab" role="tablist">
-                        <div class="d-flex position-relative">
-
-                            <button class="nav-link active  ps-5" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Introduction</button>
-                            <img class="position-absolute tab-icon tab-icon-1" src="./accets/icons/product/presentation.png" alt="" width="24px" height="24px">
-                        </div>
-                        <div class="d-flex position-relative">
-
-                            <button class="nav-link text-dark ps-5" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Expert check</button>
-                            <img class="position-absolute tab-icon tab-icon-2" src="./accets/icons/product/criminal-record.png" alt="" width="24px" height="24px">
-                        </div>
-                        <div class="d-flex position-relative">
-                            
-                            <button class="nav-link text-dark ps-5" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Specifications</button>
-                            <img class="position-absolute tab-icon tab-icon-3" src="./accets/icons/product/clipboard.png" alt="" width="24px" height="24px">
-                        </div>
-                        
-                    </div>
-                    </nav>
-                    <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade  bg-secondary-subtle  show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
-                        <h5 class="p-3">Introduction </h5>
-                        <div class="row">
-
-                          <div class="col-sm-6 d-flex offset-3">
-                            <img src="./accets/img/mackbook-banner/main.png" class="img-fluid rounded" alt="">
-                          </div>
-                        </div>
-                        <p class="p-3 lh-lg">Apple's MacBook laptops to date have been able to perform well and acceptable performance without any additional definitions. One of the powerful laptops in this series is the MacBook MK193 2021. The laptop is equipped with a 16.2 -inch display with a resolution of 3456 × 3456 pixels of the Liquid Retina XDR, which is capable of displaying 254 pixels per inch. We have to say that, given the specifications, we have a powerful and high quality display. But the powerful features of this screen are not over and you should know that it is capable of delivering an update rate of 120 Hz, which brings you a smooth screen without any lag. But undoubtedly the main feature of Apple's series laptops is the processors intended. The MacBook MK193 2021 is also equipped with a powerful Apple M1 Pro processor, which is capable of providing excellent performance in executing heavy software. The 2.1kg weight of this laptop also has no problem with it, and the compact size of the MacBook Pro MK193 2021 does not occupy much space.</p>
-                        
-                     
-
-                        <div class="row mt-5 p-3 products-desc-steps">
-                          <div class="col-sm-12">
-                            <p class="text-danger fw-bold fs-2 text-center my-4">Overview</p>
-                            <ul class="nav flex-column">
-
-                              <li class="nav-item products-desc-step mt-2 position-relative">
-                                <div class="img-wrapper" >
-                                  <img src="./accets/img/mackbook-banner/1 (1).webp" class="img-fluid mb-4"  alt="">
-                                </div>
-                                <i class="far fa-dot-circle"></i>
-                                <p class="lh-lg fz-16 p-4">MacBook Pro 2021 has a new design. The screen of this MacBook is designed in 2 sizes of 14 inches and 16 inches, and their size has been slightly increased. The dimensions of the 14-inch model are 1.55cm x 31.26cm x 22.12cm, which is slightly larger than the MacBook Pro M1 (13-inch) which measures 1.56cm x 30.41cm x 21.24cm. The 16-inch MacBook Pro is also designed in the size of 1.62cm x 35.79cm x 24.59cm. The weight of the 16-inch model is about 0.2 kg and the 14-inch model is 1.6 kg.</p>
-                              </li>
-
-                              <li class="nav-item products-desc-step mt-2 position-relative pt-5">
-                                   <div class="img-wrapper" >
-                                  <img src="./accets/img/mackbook-banner/1 (2).webp" class="img-fluid mb-4"  alt="">
-                                </div>
-                                <i class="far fa-dot-circle"></i>
-                                <p class="lh-lg fz-16 p-4">Currently, the 14-inch and 16-inch MacBook Pros have a 1080p FaceTime HD camera. This new camera doubles image resolution and dramatically improves low-light performance. It can be said that this is the same camera used in the iMac M1, which was presented in 2021. Apple has been able to improve the sound quality and audio features of its new device by using studio-quality mics. In this way, it reduces thermal noise and creates clearer contacts. Apple has also added a six-speaker audio system to the 2021 MacBook, which features two tweeters and four force-cancelling woofers. Apple has announced that this will result in 80% more bass. The audio system of the new MacBooks also supports spatial audio for a 3D listening experience.</p>
-                              </li>
-
-                              <li class="nav-item products-desc-step mt-2 position-relative">
-                                   <div class="img-wrapper" >
-                                  <img src="./accets/img/mackbook-banner/1 (3).webp" class="img-fluid mb-4"  alt="">
-                                </div>
-                                <i class="far fa-dot-circle"></i>
-                                <p class="lh-lg fz-16 p-4">The 2021 MacBook Pro was released on October 18 in 14.2-inch and 16.2-inch sizes, featuring mini-LED displays, more ports, up to 64GB of storage, and Apple's more powerful chips, the M1 Pro and M1 Max. . In short, we can say that they are the best MacBook Pro models introduced to date.</p>
-                              </li>
-                           
-                            </ul>
-                          </div>
-                        </div>
-                        <!-- end of steps -->
-                    </div>
-                    <!-- end of first tab-pane  -->
-
-                    <div class="tab-pane fade  product-specifications-wrapper" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
-
-                      <div class="title-text d-flex mt-4 align-items-center border-bottom ">
-                        <i class="fa-solid fa-chevron-right"></i>
-                        <h5 class="ms-2">Performance</h5>
-                      </div>
-                      <ul class="nav flex-column product-specifications-ul mt-3">
-                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Processor</span>
-                            <p class=" text-center">Apple M1 Pro chip</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">GPU</span>
-                            <p class=" text-center">14-core GPU</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">RAM</span>
-                            <p class=" text-center">16GB unified memory</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">SSD	</span>
-                            <p class=" text-center">512GB (Configurable to: 1TB, 2TB, 4TB or 8TB)</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">OS</span>
-                            <p class=" text-center">	macOS</p>
-                          </li>
-                        </ul>
-                        <!-- end of first specifications ul  -->
-                                 <div class="title-text d-flex mt-4 align-items-center border-bottom ">
-                        <i class="fa-solid fa-chevron-right"></i>
-                        <h5 class="ms-2">Display</h5>
-                      </div>
-                      <ul class="nav flex-column product-specifications-ul mt-3">
-                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Display Size</span>
-                            <p class=" text-center">	14.2-inch  3024x1964, 120Hz</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Display Type	</span>
-                            <p class=" text-center">	Liquid Retina XDR display</p>
-                          </li>
-
-                        </ul>
-                         <!-- end of second specifications ul  -->
-                                 <div class="title-text d-flex mt-4 align-items-center border-bottom ">
-                        <i class="fa-solid fa-chevron-right"></i>
-                        <h5 class="ms-2">IO and Ports</h5>
-                      </div>
-                      <ul class="nav flex-column product-specifications-ul mt-3">
-                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Fingerprint Sensor</span>
-                            <p class=" text-center">Touch ID</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Camera</span>
-                            <p class=" text-center">	1080p FaceTime HD camera | Advanced image signal processor with computational video</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Keyboard</span>
-                            <p class=" text-center">	Backlit Magic Keyboard (78 (US) or 79 (ISO) keys including 12 full-height function keys and 4 arrow keys in an inverted-T arrangement)</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Touchpad</span>
-                            <p class=" text-center">Yes. Force Touch trackpad for precise cursor control and pressure-sensing capabilities; enables Force clicks, accelerators, pressure-sensitive drawing and Multi-Touch gestures</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">IO Ports</span>
-                            <p class=" text-center">	SDXC card slot
-                              HDMI port
-                              3.5mm headphone jack
-                              MagSafe 3 port</p>
-                          </li>
-                        </ul>
-                        <!-- end of third  specifications-->
-                                      <div class="title-text d-flex mt-4 align-items-center border-bottom ">
-                        <i class="fa-solid fa-chevron-right"></i>
-                        <h5 class="ms-2">Connectivity</h5>
-                      </div>
-                      <ul class="nav flex-column product-specifications-ul mt-3">
-                          <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">WIFI</span>
-                            <p class=" text-center">	802.11ax Wi-Fi 6 wireless networking, IEEE 802.11a/b/g/n/ac compatible</p>
-                          </li>
-                              <li class="nav-item d-flex  product-specifications-li mb-2 ">
-                            <span class=" text-center">Bluetooth	</span>
-                            <p class=" text-center">	Bluetooth 5.0 wireless technology</p>
-                          </li>
-
-                        </ul>
-                        <!-- end of last  specifications-->
-                          <button type="button" class="btn btn-primary mt-2 border-3"> + Add to Card</button>
-                    </div>
-                    <!-- end of second tab pan -->
-                    <div class="users-feedback tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
-                      <div class="row">
-
-                       
-                      <div class=" product-progresses-wrapper  col-xl-4 mt-3 p-2">
-                          <h4 class="text-center">Users feedback</h4>
-                          <div class="product-progresses-item p-2 mb-3 border-1">
-                            <div class="top-desc d-flex justify-content-between">
-                                <p>hello</p>
-                                <span class="me-1 fz-14">26 comments</span>
-                            </div>
-                         <div class="progress " style="height: 3px;">
-                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 92%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                         </div>
-                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
-                             <p class="text-success">92%</p>
-                              <span class="text-danger">8%</span>
-                          </div>   
-                          </div>
-                           <div class="product-progresses-item p-2 mb-3">
-                                    <div class="top-desc d-flex justify-content-between">
-                                <p>hello</p>
-                                <span class="me-1 fz-14">49 comments</span>
-                            </div>
-                         <div class="progress " style="height: 3px;">
-                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                         </div>
-                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
-                             <p class="text-success">80%</p>
-                                <span class="text-danger">20%</span>
-                          </div>   
-                          </div>
-                           <div class="product-progresses-item p-2 mb-3">
-                                    <div class="top-desc d-flex justify-content-between">
-                                <p>hello</p>
-                                <span class="me-1 fz-14">51 comments</span>
-                            </div>
-                         <div class="progress " style="height: 3px;">
-                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                         </div>
-                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
-                             <p class="text-success">75%</p>
-                                <span class="text-danger">25%</span>
-                          </div>   
-                          </div>
-                           <div class="product-progresses-item p-2 mb-3">
-                                    <div class="top-desc d-flex justify-content-between">
-                                <p>hello</p>
-                                <span class="me-1 fz-14">99 comments</span>
-                            </div>
-                         <div class="progress " style="height: 3px;">
-                             <div class="progress-bar rounded-2" role="progressbar" aria-label="Example 1px high" style="width: 69%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                         </div>
-                          <div class="buttom-text fz-12  d-flex justify-content-around  mt-1">
-                             <p class="text-success">69%</p>
-                                <span class="text-danger">31%</span>
-                          </div>   
-                          </div>
-                    
-
-                          
-                        </div>
-                        <!-- end of progresses -->
-
-                        <div class="col-xl-8 user-comments-wrapper mt-4">
-                          <div class=" comments-header col-12 ">
-                            <div class="comments-headers-stars ">
-                              <i class="fa-solid fa-star text-warning "></i>
-                              <span>1</span>
-                            </div>
-                              <div class="comments-headers-stars ">
-                              <i class="fa-solid fa-star text-warning "></i>
-                              <span>2</span>
-                            </div>
-                              <div class="comments-headers-stars ">
-                              <i class="fa-solid fa-star text-warning "></i>
-                              <span>3</span>
-                            </div>
-                              <div class="comments-headers-stars ">
-                              <i class="fa-solid fa-star text-warning "></i>
-                              <span>4</span>
-                            </div>
-                              <div class="comments-headers-stars ">
-                              <i class="fa-solid fa-star text-warning "></i>
-                              <span>5</span>
-                            </div>
-
-                          </div>
-                          <!-- end of user wrapper header -->
-                          <div class="comments-users col-12 mt-4">
-                            <div class="col-12 users-photos-header">
-                              <h3>tasavir kharid</h3>
-                            </div>
-                            <div class="col-12 user-photos d-flex mt-3">
-
-                              <img src="./accets/img/mackbook-banner/1 (1).webp" alt="" class="img-fluid rounded-1" height="200px" width="200px">
-                              <img src="./accets/img/mackbook-banner/1 (2).webp" alt="" class="img-fluid rounded-1" height="200px" width="200px">
-                              <img src="./accets/img/mackbook-banner/1 (3).webp" alt="" class="img-fluid rounded-1" height="200px" width="200px">
-                              <img src="./accets/img/mackbook-banner/1 (4).webp" alt="" class="img-fluid rounded-1" height="200px" width="200px">
-                            </div>
-                            <!-- end of user comments  -->
-
-                            <div class="col-12 user-comments d-flex flex-column mt-7">
-                              <div class="comment  p-4 rounded-2 border-black d-flex flex-column">
-                                <div class="comment-top d-flex justify-content-between">
-                                  <div class="">
-                                    <img src="./accets/img/user comments photo/1 (3).jpg" class="rounded-circle" alt="" width="50px" height="56px">
-                                    <span> Alexia</span>
-                                  </div>
-                                  <span class="fz-14 text-secondary  me-2">19 hours ago</span>
-                                </div>
-                                <!-- end of image and name and time  -->
-                                <div class="d-flex mt-1">
-                                  <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
-                                </div>
-                                <!-- end of stars -->
-
-                                <p class="fw-bold mt-3">Wonderful  </p>
-                                <span class="fz-12 ms-2 text-secondary"> Model : 8-Core GPU    , Memori : 12Gb , Color : Silver</span>
-                                <p class="mt-2">As someone who has been buying high-end Windows laptops for years and has suggested to others Apple MacBooks, which are simply classy and no longer worth anything, I must say that after the introduction of the M1 Pro series MacBooks and with the dollar price drop that came with the introduction New find series, I consider this MacBook M1 Pro mk193 very valuable and recommend it.</p>
-                                <ul class="mt-3">
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">The touchpad that made me not need a mouse (I didn't think so)</p></li>
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">The build quality is very, very high, which I have not seen in any Windows laptop</p></li>
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">Screen quality and a very well made and slim LED</p></li>
-                                  <li class="d-flex mt-1"><span class="text-danger">-</span> <p class="fz-14 ms-1">Nachi does not have face recognition</p></li>
-                                </ul>
-                                <div class="buttons d-flex mt-4 justify-content-end">
-                                  <button type="button" class="btn btn-outline-primary px-3 me-3 "><i class="fa-solid fa-thumbs-up"></i></button>
-                                  <button type="button" class="btn btn-outline-danger px-3"><i class="fa-solid fa-thumbs-down"></i></button>
-
-                                </div>
-                              </div>
-                            </div>
-                               <div class="col-12 user-comments d-flex flex-column mt-7">
-                              <div class="comment  p-4 rounded-2 border-black d-flex flex-column">
-                                <div class="comment-top d-flex justify-content-between">
-                                  <div class="">
-                                    <img src="./accets/img/user comments photo/1 (2).jpg" class="rounded-circle " alt="" width="50px" height="56px">
-                                    <span>Kevin ibra</span>
-                                  </div>
-                                  <span class="fz-14 text-secondary  me-2">19 hours ago</span>
-                                </div>
-                                <!-- end of image and name and time  -->
-                                <div class="d-flex mt-1">
-                                  <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
-                                </div>
-                                <!-- end of stars -->
-
-                                <p class="fw-bold mt-3">I suggest  </p>
-                                <span class="fz-12 ms-2 text-secondary"> Model : 8-Core GPU    , Memori : 12Gb , Color : Silver</span>
-                                <p class="mt-2">I've had it for a year, everything is great, I haven't seen any negative points</p>
-                                <ul class="mt-3">
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">The touchpad that made me not need a mouse (I didn't think so)</p></li>
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">The build quality is very, very high, which I have not seen in any Windows laptop</p></li>
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">Screen quality and a very well made and slim LED</p></li>
-                                  <li class="d-flex mt-1"><span class="text-danger">-</span> <p class="fz-14 ms-1">Nachi does not have face recognition</p></li>
-                                </ul>
-                                <div class="buttons d-flex mt-4 justify-content-end">
-                                  <button type="button" class="btn btn-outline-primary px-3 me-3 "><i class="fa-solid fa-thumbs-up"></i></button>
-                                  <button type="button" class="btn btn-outline-danger px-3"><i class="fa-solid fa-thumbs-down"></i></button>
-
-                                </div>
-                              </div>
-                            </div>
-                               <div class="col-12 user-comments d-flex flex-column mt-7 mb-5">
-                              <div class="comment  p-4 rounded-2 border-black d-flex flex-column">
-                                <div class="comment-top d-flex justify-content-between">
-                                  <div class="">
-                                    <img src="./accets/img/user comments photo/1 (1).jpg" class="rounded-circle " alt="" width="50px" height="56px">
-                                    <span>Lionel messi</span>
-                                  </div>
-                                  <span class="fz-14 text-secondary  me-2">2 days ago</span>
-                                </div>
-                                <!-- end of image and name and time  -->
-                                <div class="d-flex mt-1">
-                                 <i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i><i class="fa-solid fa-star text-warning"></i>
-                                </div>
-                                <!-- end of stars -->
-
-                                <p class="fw-bold mt-3">A unique device  </p>
-                                <span class="fz-12 ms-2 text-secondary"> Model : 8-Core GPU    , Memori : 16Gb , Color : Gold</span>
-                                <p class="mt-2">High quality experience incomparable to other Asus and Microsoft laptops, etc</p>
-                                <ul class="mt-3">
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">The touchpad that made me not need a mouse (I didn't think so)</p></li>
-                                
-                                  <li class="d-flex mt-1"><span class="text-success">+</span> <p class="fz-14 ms-1">Screen quality and a very well made and slim LED</p></li>
-                                  <li class="d-flex mt-1"><span class="text-danger">-</span> <p class="fz-14 ms-1">Nachi does not have face recognition</p></li>
-                                </ul>
-                                <div class="buttons d-flex mt-4 justify-content-end">
-                                  <button type="button" class="btn btn-outline-primary px-3 me-3 "><i class="fa-solid fa-thumbs-up"></i></button>
-                                  <button type="button" class="btn btn-outline-danger px-3"><i class="fa-solid fa-thumbs-down"></i></button>
-
-                                </div>
-                              </div>
-                            </div>
-                            <!-- end of user comments -->
-                          </div>
-                        </div>
-                        <!-- end of user comments wrapper -->
-                      </div> 
-                         <!-- end of row -->
-                    </div>
-                    <!-- end of third pane -->
-                    
-                    </div>
-                    <!-- end of nav tabs -->
-            </div>
-        </div>
-    </section>
-
-
-    <!-- start footer section -->
-    <section
-      class="container mt-8"
-      data-aos="fade-left"
-      data-aos-duration="2000"
-      data-aos-easing="ease-in-sine"
-      data-aos-delay="500"
-    >
-      <footer class="py-3">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
-            <h5 class="ul-tittles">Entertainment</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item p-2 mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Apple One </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Apple News+ </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Apple Books </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted"
-                  >Apple Tv+
-                  <span class="badge rounded-pill bg-light text-dark ms-1"
-                    >New</span
-                  ></a
-                >
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Apple Acocount</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md-2 mb-3">
-            <h5 class="ul-tittles">About Apple</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Newsroom </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted"
-                  >Apple Leadership
-                </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted"> Investors </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Contact Apple </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Faq</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-6 col-md-2 mb-3">
-            <h5 class="ul-tittles">Apple Values</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Accessibility </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Education </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Environment </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">Privacy </a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">About</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-md-5 offset-md-1 mb-3 Subscribe-section">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden"
-                  >Email address</label
-                >
-                <input
-                  id="newsletter1"
-                  type="text"
-                  class="form-control"
-                  placeholder="Email address"
-                />
-                <button
-                  class="btn btn-primary d-flex align-items-center"
-                  type="button"
-                >
-                  Subscribe<img
-                    src="./accets/img/footer/notification.png"
-                    class="ms-1"
-                    width="24px"
-                    alt=""
-                  />
-                </button>
-              </div>
-            </form>
-
-            <h5 class="mt-4">Download the app :</h5>
-            <div class="mt-3 d-flex">
-              <div class="col-sm-6 col-md-5">
-                <a
-                  href="#"
-                  class="d-flex flex-row border-black me-1 rounded-3 p-1 text-decoration-none"
-                >
-                  <img
-                    src="./accets/img/footer/google-play.png"
-                    class="img-fluid"
-                    width="48px"
-                    alt=""
-                  />
-                  <div
-                    class="texts ms-2 d-flex flex-column justify-content-center"
-                  >
-                    <p class="fz-10 text-dark">GET IT ON</p>
-                    <p class="text-dark">Google Play</p>
-                  </div>
-                </a>
-              </div>
-              <div class="col-sm-6 col-md-5 offset-1">
-                <a
-                  href="#"
-                  class="d-flex flex-row border border-1 rounded-3 p-1 text-decoration-none bg-white"
-                >
-                  <img
-                    src="./accets/img/footer/app-store.png"
-                    class="img-fluid"
-                    width="48px"
-                    alt=""
-                  />
-                  <div
-                    class="texts ms-2 d-flex flex-column justify-content-center"
-                  >
-                    <p class="fz-10 text-dark">Download app the</p>
-                    <p class="text-dark">App Store</p>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-5 sochial-media"
-        >
-          <p>&copy; 2022 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3">
-              <a class="link-dark" href="#"
-                ><img
-                  src="./accets/img/footer/facebook.png"
-                  class="img-fluid"
-                  width="24px"
-                  alt=""
-              /></a>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Apple Books </a>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#"
-                ><img
-                  src="./accets/img/footer/twitter(3).png"
-                  class="img-fluid"
-                  width="24px"
-                  alt=""
-              /></a>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Apple Tv+
+                <span class="badge rounded-pill bg-light text-dark ms-1">New</span></a>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#"
-                ><img
-                  src="./accets/img/footer/linkedin(1).png"
-                  class="img-fluid"
-                  width="24px"
-                  alt=""
-              /></a>
-            </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#"
-                ><img
-                  src="./accets/img/footer/instagram.png"
-                  class="img-fluid"
-                  width="24px"
-                  alt=""
-              /></a>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Apple Acocount</a>
             </li>
           </ul>
         </div>
-      </footer>
-    </section>
-    <!-- end of  footer section -->
 
-    <!-- jqery -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
-      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+        <div class="col-6 col-md-2 mb-3">
+          <h5 class="ul-tittles">About Apple</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Newsroom </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Apple Leadership
+              </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted"> Investors </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Contact Apple </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Faq</a>
+            </li>
+          </ul>
+        </div>
 
-    <!-- fontawesome -->
-    <script
-      src="https://kit.fontawesome.com/82dde8eac4.js"
-      crossorigin="anonymous"
-    ></script>
+        <div class="col-6 col-md-2 mb-3">
+          <h5 class="ul-tittles">Apple Values</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Accessibility </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Education </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Environment </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">Privacy </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-muted">About</a>
+            </li>
+          </ul>
+        </div>
 
-    <!-- bootstrap  -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
+        <div class="col-md-5 offset-md-1 mb-3 Subscribe-section">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+              <button class="btn btn-primary d-flex align-items-center" type="button">
+                Subscribe<img src="./accets/img/footer/notification.png" class="ms-1" width="24px" alt="" />
+              </button>
+            </div>
+          </form>
 
-    <!-- owl slider -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 10,
-        center: true,
-        autoplay: true,
-        autoplayTimeout: 2500,
-        autoplayHoverPause: true,
-        slideBy: 3,
-        nav: true,
-        items: 6,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          600: {
-            items: 3,
-          },
-          1000: {
-            items: 4,
-          },
+          <h5 class="mt-4">Download the app :</h5>
+          <div class="mt-3 d-flex">
+            <div class="col-sm-6 col-md-5">
+              <a href="#" class="d-flex flex-row border-black me-1 rounded-3 p-1 text-decoration-none">
+                <img src="./accets/img/footer/google-play.png" class="img-fluid" width="48px" alt="" />
+                <div class="texts ms-2 d-flex flex-column justify-content-center">
+                  <p class="fz-10 text-dark">GET IT ON</p>
+                  <p class="text-dark">Google Play</p>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm-6 col-md-5 offset-1">
+              <a href="#" class="d-flex flex-row border border-1 rounded-3 p-1 text-decoration-none bg-white">
+                <img src="./accets/img/footer/app-store.png" class="img-fluid" width="48px" alt="" />
+                <div class="texts ms-2 d-flex flex-column justify-content-center">
+                  <p class="fz-10 text-dark">Download app the</p>
+                  <p class="text-dark">App Store</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-5 sochial-media">
+        <p>&copy; 2022 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="link-dark" href="#"><img src="./accets/img/footer/facebook.png" class="img-fluid" width="24px"
+                alt="" /></a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"><img src="./accets/img/footer/twitter(3).png" class="img-fluid" width="24px"
+                alt="" /></a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"><img src="./accets/img/footer/linkedin(1).png" class="img-fluid" width="24px"
+                alt="" /></a>
+          </li>
+          <li class="ms-3">
+            <a class="link-dark" href="#"><img src="./accets/img/footer/instagram.png" class="img-fluid" width="24px"
+                alt="" /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </section>
+  <!-- end of  footer section -->
+
+  <!-- jqery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/82dde8eac4.js" crossorigin="anonymous"></script>
+
+  <!-- bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      center: true,
+      autoplay: true,
+      autoplayTimeout: 2500,
+      autoplayHoverPause: true,
+      slideBy: 3,
+      nav: true,
+      items: 6,
+      responsive: {
+        0: {
+          items: 1,
         },
-      });
-    </script>
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 4,
+        },
+      },
+    });
+  </script>
 
-    <!-- type writter js -->
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- type writter js -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 
-    <!-- aos js -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <!-- aos js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
-    <!-- custom js -->
-    <script src="./accets/js/main.js"></script>
-  </body>
+  <!-- custom js -->
+  <script src="./accets/js/main.js"></script>
+</body>
+
 </html>

@@ -1,25 +1,49 @@
-
-.product-details .colors span{
-  padding: 2px 10px;
+.product-details .colors span {
+    padding: 2px 10px;
     width: 10px;
     height: 10px;
     border-radius: 50%;
     margin-right: 10px;
     /* border: 3px solid blue; */
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
 }
-.product-details .colors span.silver{
+
+.product-details .colors span.silver {
     background-color: #f1f2ed;
 }
-.product-details .colors span.green{
+
+.product-details .colors span.green {
     background-color: #576856;
 }
 
-.product-details .colors span.gold{background-color: #fae7c7;}
-.product-details .colors span.black{background-color: #222930;}
-.product-details .colors span.blue{background-color: #a7c1d9;}
-.product-details .colors span.purple{background-color: #594f63;}
-.product-details .colors span.yellow{background-color: #f9e479;}
-.product-details .colors span.midnight{background-color: #1d1d1f;}
-.product-details .colors span.starlight{background-color: #faf6f2;}
-.product-details .colors span.red{background-color: #fc0324;}
+.product-details .colors span.gold {
+    background-color: #fae7c7;
+}
+
+.product-details .colors span.black {
+    background-color: #222930;
+}
+
+.product-details .colors span.blue {
+    background-color: #a7c1d9;
+}
+
+.product-details .colors span.purple {
+    background-color: #594f63;
+}
+
+.product-details .colors span.yellow {
+    background-color: #f9e479;
+}
+
+.product-details .colors span.midnight {
+    background-color: #1d1d1f;
+}
+
+.product-details .colors span.starlight {
+    background-color: #faf6f2;
+}
+
+.product-details .colors span.red {
+    background-color: #fc0324;
+}

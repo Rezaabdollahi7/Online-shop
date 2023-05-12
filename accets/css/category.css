@@ -1,4 +1,27 @@
-.cat .items:hover{ background-color: rgba(197, 193, 193,0.2); }
-.cat .items {transition: var(--transition);}
-.cat .items img{transition: all 1s;}
-.cat .items:hover img{transform: scale(1.1);}
+.cat .items:hover {
+    background-color: rgba(197, 193, 193, 0.2);
+}
+
+.cat .items {
+    transition: var(--transition);
+    /* background-color: aliceblue; */
+}
+
+.cat .items img {
+    transition: all 1s;
+}
+
+.cat .items:hover img {
+    transform: scale(1.1);
+}
+
+.cat .items>div {
+    display: block;
+    width: 100%;
+    margin: 2px;
+    padding: 13px 20px 13px 13px;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 15px -2px #666;
+    text-align: center;
+}

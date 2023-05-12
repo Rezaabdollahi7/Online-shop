@@ -1,8 +1,9 @@
-.mackbook-banner .img-banner{
+.mackbook-banner .img-banner {
     overflow: hidden;
-    
+
 }
-.mackbook-banner .img-banner:hover a img{
+
+.mackbook-banner .img-banner:hover a img {
     transform: scale(1.1);
     transition: all 1s ease;
 }
