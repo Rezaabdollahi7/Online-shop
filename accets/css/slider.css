@@ -7,6 +7,33 @@
   flex: 0 0 53%;
   max-width: 53%;
 }
+.f-custom-slider img{
+  border-radius: 10px;
+}
+.f-custom-slider .carousel-inner {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.carousel-item .carousel-caption p{
+background: rgba(108, 20, 164, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(108, 20, 164, 0.25);
+}
+.carousel-control-prev-icon , .carousel-control-next-icon {
+  background-color: #65a30d;
+  padding: 19px;
+  border-radius: 19%;
+}
+.carousel-indicators{
+  margin-bottom: 0;
+}
+.carousel-indicators [data-bs-target] {
+  width:19px;
+  height:19px;
+  padding:0px;
+  border-radius: 50%;
+}
 
 @media screen and (max-width: 992px) {
   .custom-col-lg-3 {

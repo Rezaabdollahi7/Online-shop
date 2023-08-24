@@ -1,15 +1,22 @@
+.s-navbar {
+   -webkit-box-shadow: 0 4px 28.5px -2.5px #c5baba78;
+      -moz-box-shadow: 0 4px 28.5px -2.5px #c5baba78;
+      box-shadow: 0 4px 28.5px -2.5px #c5baba78;
+}
 .s-navbar .first-nav {
-   background-color: var(--dark-blue-75);
+   background-color: #020617;
 }
 
 .s-navbar .second-nav {
-   background-color: var(--dark-blue-100);
+   background-color: #020617;
 }
 
 .s-navbar .second-nav .search-section .input-group ::placeholder {
    color: gray
 }
-
+.s-navbar .input-group>button:nth-child(1) {
+   background: #fde047;
+}
 .s-navbar .second-nav .search-section .input-group input:focus {
    color: gray;
 }
@@ -23,7 +30,7 @@
 }
 
 .s-navbar .s-menu {
-   background-color: var(--dark-blue-100);
+   background-color: #020617;
 }
 
 .s-navbar .brand-section img {

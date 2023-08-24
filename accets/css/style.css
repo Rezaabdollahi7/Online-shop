@@ -3,24 +3,7 @@
 body {
   /* font-family: 'SF Pro Display' , serif; */
   font-family: "Pathway Extreme", sans-serif;
-  background: #c9d6ff;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom,
-      #e2e2e2,
-      #c9d6ff);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom,
-      #e2e2e2,
-      #c9d6ff);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-  background: #FFEFBA;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFFFFF, #FFEFBA 40%);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #0f172a;
 
 }
 
