@@ -25,3 +25,17 @@
     box-shadow: 1px 1px 15px -2px #666;
     text-align: center;
 }
+
+.Typewriter__wrapper{
+    color: #0284c7;
+}
+
+.cat .items p:nth-child(1) {
+    color: #b45309;
+}
+.cat .items img
+    {
+    height: 95px;
+    width: 135px;
+    margin-top: 20px;
+}
