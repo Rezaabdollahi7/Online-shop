@@ -1,8 +1,9 @@
 .s-navbar {
    -webkit-box-shadow: 0 4px 28.5px -2.5px #c5baba78;
-      -moz-box-shadow: 0 4px 28.5px -2.5px #c5baba78;
-      box-shadow: 0 4px 28.5px -2.5px #c5baba78;
+   -moz-box-shadow: 0 4px 28.5px -2.5px #c5baba78;
+   box-shadow: 0 4px 28.5px -2.5px #c5baba78;
 }
+
 .s-navbar .first-nav {
    background-color: #020617;
 }
@@ -14,9 +15,11 @@
 .s-navbar .second-nav .search-section .input-group ::placeholder {
    color: gray
 }
+
 .s-navbar .input-group>button:nth-child(1) {
    background: #fde047;
 }
+
 .s-navbar .second-nav .search-section .input-group input:focus {
    color: gray;
 }
@@ -72,6 +75,33 @@
 }
 
 .s-navbar .signin-modal .input-icons {
-   top: 35%;
+   top: 22%;
    right: 2%;
+}
+
+.modal-content {
+   background: rgba(21, 21, 2, 0.5);
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(18.8px);
+   border: 1px solid rgba(216, 213, 21, 0.25);
+}
+
+.modal-content h1 {
+   color: #a21caf;
+   font-weight: bold;
+}
+
+.modal-content p {
+   color: #172554;
+}
+
+.form-floating input {
+   border-left: 6px solid #b91c1c;
+}
+
+.modal-body button {
+   background: #fcd34d;
+   color: #000;
+   font-weight: bold;
+   border: 0;
 }
