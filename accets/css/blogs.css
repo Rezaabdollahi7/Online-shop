@@ -1,8 +1,44 @@
-.blogs img {
-    transition: all 1s ease-in-out;
+.blogs{
+   margin-top: 8rem;
+   margin-bottom: 10rem;
 }
+.blogs img {
+    filter: grayscale(0.5);
+    transition: all 0.5s;
+   
+}
+.blogs h4{
+    color: #cbd5e1;
+    font-size: 2rem;
+}
+.blogs p{
+    color: #475569;
+}
+.blogs .img-item:hover img{
+    filter: grayscale(0);
+   transform: translateY(-20px);
+}
+.blogs .img-item button {
+    right: 40%;
+    top: 43%;
+    padding: 1rem;
+    color: white;
+    background: #c70039;
+    animation: heart 1.4s infinite;
+    background: -webkit-linear-gradient(305deg, #c70039 0%, #900c3f 100%);
+    background: linear-gradient(305deg, #c70039 0%, #900c3f 100%);
+clip-path: polygon(30% 0%, 50% 15%, 70% 0%, 90% 10%, 100% 35%, 82.3% 74.3%, 50% 100%, 17.4% 75.8%, 0% 35%, 10% 10%);
+}
+@keyframes heart {
+    0%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.2);
+        
+    }
+    100%{
+        transform: scale(1);
 
-.blogs img:hover {
-    transform: scale(1.03);
-    /* box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); */
+    }
 }
