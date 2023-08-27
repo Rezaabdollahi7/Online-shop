@@ -26,7 +26,12 @@ body {
 p {
   margin: 0;
 }
-
+.fz-22 {
+  font-size: 22px;
+}
+.fz-20 {
+  font-size: 20px;
+}
 .fz-18 {
   font-size: 18px;
 }

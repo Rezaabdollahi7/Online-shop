@@ -64,16 +64,15 @@
 
 .mobile-offer .mobile-items {
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 30px;
   background-clip: content-box;
-  padding: 15px;
   transition: all 1s;
 }
 
 .mobile-offer .mobile-items:hover {
   transform: scale(1.06);
-  /* box-shadow: 24px 25px 34px 7px rgba(0, 0, 0, 0.1),
-    0px 10px 15px -3px rgba(0, 0, 0, 0.1); */
+  box-shadow: 24px 25px 34px 7px rgba(0, 0, 0, 0.1),
+    0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 992px) {

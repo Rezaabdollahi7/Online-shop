@@ -3,6 +3,7 @@ footer .ul-tittles {
     border-bottom: 3px solid transparent;
     transition: all 1s;
     padding-bottom: 3px;
+    color: #facc15;
 }
 
 footer .ul-tittles:hover {
@@ -11,6 +12,7 @@ footer .ul-tittles:hover {
 
 footer ul.nav a {
     transition: all 0.32s ease-in-out;
+    color: #0ea5e9;
 }
 
 footer ul.nav a::before {
@@ -32,10 +34,33 @@ footer .sochial-media {
     border-top: 2px solid #efefef;
 }
 
+footer .sochial-media p {
+    color: #facc15;
+}
+
 footer .sochial-media ul li img {
     transition: all 0.12s ease-in-out;
+
+    background-color: #f8f7f7;
+    padding: 2px;
+    border-radius: 14px;
 }
 
 footer .sochial-media ul li img:hover {
     transform: scale(1.2);
+}
+
+footer h5 {
+    color: #facc15;
+}
+
+footer .download-item a {
+    background-color: #a3e635;
+    color: black;
+    font-size: 19px;
+    transition: all 0.4s;
+}
+
+footer .download-item a:hover {
+    background-color: #4d7c0fbb;
 }
