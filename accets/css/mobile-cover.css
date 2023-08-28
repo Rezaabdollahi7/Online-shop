@@ -1,0 +1,66 @@
+.mobile-cover-section .cover-items-container img {
+    margin-top: -15%;
+    max-height: 230px !important;
+    transition: all 0.5s;
+    align-self: center;
+
+}
+
+.mobile-cover-section .cover-items-container img:hover {
+    transform: scale(1.08);
+}
+
+.mobile-cover-section .cover-items-container .cover-item {
+    background: rgba(255, 255, 255, 0.99);
+    -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
+    border: 1px solid rgba(255, 255, 255, 0.325);
+    transition: all 0.3s;
+
+}
+
+.mobile-cover-section .cover-items-container .cover-item:hover {
+    -webkit-box-shadow: 6.5px 5.5px 13.5px 3px #ffffff;
+    -moz-box-shadow: 6.5px 5.5px 13.5px 3px #ffffff;
+    box-shadow: 6.5px 5.5px 13.5px 3px #ffffff;
+}
+
+.mobile-cover-section .cover-items-container .cover-item h5 {
+    color: #172554;
+    margin-top: 1rem;
+}
+
+.mobile-cover-section .cover-items-container .cover-item ul {
+    list-style: none;
+}
+
+.mobile-cover-section .cover-items-container .cover-item .li-item-tittle {
+    color: #171717;
+    font-size: 18px;
+}
+
+.mobile-cover-section .cover-items-container .cover-item .li-item-des {
+    color: #6b7280;
+}
+
+.mobile-cover-section .cover-items-container .cover-item .btn-wrapper span {
+    font-size: 20px;
+}
+
+.mobile-cover-section .cover-items-container .cover-item button {
+    background-color: #7e22ce;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 15px 3px 15px 0;
+    width: 50%;
+}
+
+.mobile-cover-section .cover-section-tittles  h5 {
+    color: #cbd5e1;
+    font-size: 2rem;
+}
+
+.mobile-cover-section .cover-section-tittles  p {
+    color: #475569;
+}
