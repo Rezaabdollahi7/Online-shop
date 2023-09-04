@@ -6,7 +6,9 @@
 .products-carousel .price {
     vertical-align: 2px;
 }
-
+.products-carousel .item {
+    background-color: #1e1b4b;
+}
 .owl-nav,
 .owl-dots {
     display: block;
@@ -31,46 +33,4 @@
     display: flex;
 }
 
-.owl-next>span:nth-child(1),
-.owl-prev>span:nth-child(1) {
-    position: absolute;
-    border-radius: 5px;
-    font-size: 60px;
-    background-color: #fff;
-    box-shadow: 0;
-    box-shadow: 0 0 5px 4px #efefef;
-    display: block;
-    padding: 0 5px;
-}
 
-.owl-next>span:nth-child(1) {
-    right: -25px;
-    border-radius: 5px 26px 26px 5px;
-}
-
-.owl-prev>span:nth-child(1) {
-    left: -25px;
-    border-radius: 26px 5px 5px 26px;
-}
-
-.owl-theme .owl-nav [class*="owl-"]:hover {
-    color: #080808;
-}
-
-.card-icon {
-    background-color: rgba(177, 174, 174, 0.4);
-    padding: 5px 7px;
-    top: 10px;
-    left: 10px;
-    border-radius: 50%;
-
-}
-
-.card-icon i {
-    transition: all 1s;
-    color: #ffffff;
-}
-
-.card-icon:hover i {
-    color: rgba(227, 29, 29, 0.8);
-}
